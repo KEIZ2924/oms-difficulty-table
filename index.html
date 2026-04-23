@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Difficulty Table</title>
+
+  <style>
+    :root {
+      --bg: #ffffff;
+      --text: #222222;
+      --muted: #666666;
+      --topbar-bg: #222831;
+      --topbar-text: #ffffff;
+      --subbar-bg: #393e46;
+      --subbar-text: #eeeeee;
+      --note-bg: #e8f5e9;
+      --note-border: #b7dfbd;
+      --thead-bg: #30343b;
+      --thead-text: #ffffff;
+      --group-bg: #4a4f57;
+      --group-text: #ffffff;
+      --row-odd: #ffffff;
+      --row-even: #f4f4f4;
+      --border: #d0d0d0;
+      --link: #0645ad;
+      --danger-bg: #fff1f1;
+      --danger-border: #e2a7a7;
+      --danger-text: #8a1f1f;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Arial, Helvetica, "Yu Gothic", "Meiryo", sans-serif;
+      font-size: 12px;
+      line-height: 1.45;
+    }
+
+    a {
+      color: var(--link);
+      text-decoration: underline;
+    }
+
+    .topbar {
+      background: var(--topbar-bg);
+      color: var(--topbar-text);
+      padding: 8px 14px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .subbar {
+      background: var(--subbar-bg);
+      color: var(--subbar-text);
+      padding: 5px 14px;
+      font-size: 12px;
+    }
+
+    .container {
+      max-width: 1280px;
+      margin: 12px auto 40px;
+      padding: 0 12px;
+    }
+
+    .note-box {
+      background: var(--note-bg);
+      border: 1px solid var(--note-border);
+      padding: 10px 12px;
+      margin-bottom: 12px;
+      color: #24452b;
+    }
+
+    .toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+      margin-bottom: 10px;
+      padding: 8px;
+      border: 1px solid var(--border);
+      background: #fafafa;
+    }
+
+    .toolbar input,
+    .toolbar select,
+    .toolbar button {
+      font-size: 12px;
+      padding: 4px 6px;
+      border: 1px solid #aaa;
+      background: #fff;
+    }
+
+    .toolbar input {
+      min-width: 260px;
+    }
+
+    .toolbar button {
+      cursor: pointer;
+    }
+
+    .meta {
+      margin: 6px 0 10px;
+      color: var(--muted);
+    }
+
+    .message {
+      padding: 14px;
+      border: 1px solid var(--border);
+      background: #fafafa;
+      margin-bottom: 12px;
+    }
+
+    .error {
+      background: var(--danger-bg);
+      border-color: var(--danger-border);
+      color: var(--danger-text);
+      white-space: pre-wrap;
+    }
+
+    .table-wrap {
+      overflow-x: auto;
+      border: 1px solid var(--border);
+    }
+
+    table {
+      width: 100%;
+      min-width: 1000px;
+      border-collapse: collapse;
+      table-layout: fixed;
+    }
+
+    thead th {
+      background: var(--thead-bg);
+      color: var(--thead-text);
+      padding: 6px 7px;
+      border-right: 1px solid #555;
+      text-align: left;
+      white-space: nowrap;
+    }
+
+    thead th:last-child {
+      border-right: none;
+    }
+
+    tbody td {
+      padding: 4px 7px;
+      border-top: 1px solid var(--border);
+      border-right: 1px solid #e5e5e5;
+      vertical-align: top;
+      overflow-wrap: anywhere;
+    }
+
+    tbody td:last-child {
+      border-right: none;
+    }
+
+    tbody tr.data-row:nth-child(odd) td {
+      background: var(--row-odd);
+    }
+
+    tbody tr.data-row:nth-child(even) td {
+      background: var(--row-even);
+    }
+
+    tr.group-row td {
+      background: var(--group-bg) !important;
+      color: var(--group-text);
+      font-weight: bold;
+      padding: 5px 7px;
+      border-top: 1px solid #333;
+    }
+
+    .col-level {
+      width: 72px;
+      white-space: nowrap;
+      text-align: center;
+    }
+
+    .col-title {
+      width: auto;
+    }
+
+    .col-artist {
+      width: 210px;
+    }
+
+    .col-comment {
+      width: 90px;
+      white-space: nowrap;
+    }
+
+    .col-note {
+      width: 78px;
+      text-align: right;
+      white-space: nowrap;
+    }
+
+    .col-total {
+      width: 70px;
+      text-align: right;
+      white-space: nowrap;
+    }
+
+    .col-judge {
+      width: 65px;
+      text-align: center;
+      white-space: nowrap;
+    }
+
+    .col-md5 {
+      width: 230px;
+      font-family: Consolas, Monaco, monospace;
+      font-size: 11px;
+    }
+
+    .level-badge {
+      display: inline-block;
+      min-width: 44px;
+      padding: 1px 5px;
+      border-radius: 3px;
+      background: #222831;
+      color: #fff;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .small {
+      color: var(--muted);
+      font-size: 11px;
+    }
+
+    .footer {
+      margin-top: 14px;
+      color: var(--muted);
+      font-size: 11px;
+    }
+
+    @media (max-width: 700px) {
+      .topbar {
+        font-size: 17px;
+      }
+
+      .toolbar {
+        display: block;
+      }
+
+      .toolbar > * {
+        margin: 3px 0;
+      }
+
+      .toolbar input {
+        width: 100%;
+        min-width: 0;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="topbar" id="page-title">Difficulty Table</div>
+  <div class="subbar" id="page-subtitle">Loading...</div>
+
+  <div class="container">
+    <div class="note-box" id="description-box">
+      このページは header.json と score.json から自動生成されています。
+    </div>
+
+    <div class="toolbar">
+      <label>
+        Search:
+        <input id="search-input" type="search" placeholder="title / artist / comment / md5 / sha256">
+      </label>
+
+      <label>
+        Level:
+        <select id="level-filter">
+          <option value="">All</option>
+        </select>
+      </label>
+
+      <button id="clear-button" type="button">Clear</button>
+    </div>
+
+    <div class="meta" id="meta"></div>
+
+    <div id="content" class="message">Loading header.json / score.json ...</div>
+
+    <div class="footer">
+      Generated from <code>header.json</code> and <code>score.json</code>.
+    </div>
+  </div>
+
+  <script>
+    const HEADER_URL = "header.json";
+
+    let header = null;
+    let scores = [];
+    let levelOrder = [];
+
+    const pageTitle = document.getElementById("page-title");
+    const pageSubtitle = document.getElementById("page-subtitle");
+    const descriptionBox = document.getElementById("description-box");
+    const meta = document.getElementById("meta");
+    const content = document.getElementById("content");
+    const searchInput = document.getElementById("search-input");
+    const levelFilter = document.getElementById("level-filter");
+    const clearButton = document.getElementById("clear-button");
+
+    function escapeHtml(value) {
+      return String(value ?? "")
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
+
+    function isHttpUrl(value) {
+      return typeof value === "string" && /^https?:\/\//i.test(value);
+    }
+
+    function resolveUrl(base, path) {
+      if (!path) return "";
+      try {
+        return new URL(path, base).toString();
+      } catch {
+        return path;
+      }
+    }
+
+    function createLink(text, href) {
+      const safeText = escapeHtml(text);
+      if (!href) return safeText;
+
+      const safeHref = escapeHtml(href);
+      return `<a href="${safeHref}" target="_blank" rel="noopener noreferrer">${safeText}</a>`;
+    }
+
+    function normalizeLevel(level) {
+      const lv = String(level ?? "").trim();
+      return lv || "未分類";
+    }
+
+    function getScoreSearchText(item) {
+      return [
+        item.title,
+        item.artist,
+        item.comment,
+        item.level,
+        item.name_diff,
+        item.md5,
+        item.sha256
+      ].map(v => String(v ?? "").toLowerCase()).join(" ");
+    }
+
+    function compareByTitleArtist(a, b) {
+      const at = String(a.title ?? "");
+      const bt = String(b.title ?? "");
+      const t = at.localeCompare(bt, "ja");
+      if (t !== 0) return t;
+
+      const aa = String(a.artist ?? "");
+      const ba = String(b.artist ?? "");
+      return aa.localeCompare(ba, "ja");
+    }
+
+    function buildLevelList() {
+      const fromHeader = Array.isArray(header.level_order) ? header.level_order.slice() : [];
+      const existingLevels = Array.from(new Set(scores.map(s => normalizeLevel(s.level))));
+
+      const result = [];
+
+      for (const lv of fromHeader) {
+        if (!result.includes(lv)) result.push(lv);
+      }
+
+      for (const lv of existingLevels) {
+        if (!result.includes(lv)) result.push(lv);
+      }
+
+      if (!result.includes("未分類")) {
+        result.push("未分類");
+      }
+
+      return result;
+    }
+
+    function populateLevelFilter() {
+      levelFilter.innerHTML = `<option value="">All</option>`;
+
+      for (const lv of levelOrder) {
+        const count = scores.filter(s => normalizeLevel(s.level) === lv).length;
+        if (count <= 0) continue;
+
+        const opt = document.createElement("option");
+        opt.value = lv;
+        opt.textContent = `${lv} (${count})`;
+        levelFilter.appendChild(opt);
+      }
+    }
+
+    function render() {
+      const keyword = searchInput.value.trim().toLowerCase();
+      const selectedLevel = levelFilter.value;
+
+      let filtered = scores.slice();
+
+      if (selectedLevel) {
+        filtered = filtered.filter(item => normalizeLevel(item.level) === selectedLevel);
+      }
+
+      if (keyword) {
+        filtered = filtered.filter(item => getScoreSearchText(item).includes(keyword));
+      }
+
+      const totalCount = scores.length;
+      const filteredCount = filtered.length;
+
+      meta.innerHTML = `
+        Table: <strong>${escapeHtml(header.name || "Difficulty Table")}</strong>
+        ${header.symbol ? ` / Symbol: <strong>${escapeHtml(header.symbol)}</strong>` : ""}
+        / Total: <strong>${totalCount}</strong>
+        / Displayed: <strong>${filteredCount}</strong>
+      `;
+
+      if (filtered.length === 0) {
+        content.className = "message";
+        content.innerHTML = "No entries.";
+        return;
+      }
+
+      const byLevel = new Map();
+
+      for (const lv of levelOrder) {
+        byLevel.set(lv, []);
+      }
+
+      for (const item of filtered) {
+        const lv = normalizeLevel(item.level);
+        if (!byLevel.has(lv)) {
+          byLevel.set(lv, []);
+        }
+        byLevel.get(lv).push(item);
+      }
+
+      let html = `
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th class="col-level">Level</th>
+                <th class="col-title">Title</th>
+                <th class="col-artist">Artist</th>
+                <th class="col-comment">Comment</th>
+                <th class="col-note">Notes</th>
+                <th class="col-total">Total</th>
+                <th class="col-judge">Judge</th>
+                <th class="col-md5">MD5</th>
+              </tr>
+            </thead>
+            <tbody>
+      `;
+
+      for (const lv of levelOrder) {
+        const list = byLevel.get(lv) || [];
+        if (list.length === 0) continue;
+
+        list.sort(compareByTitleArtist);
+
+        html += `
+          <tr class="group-row">
+            <td colspan="8">${escapeHtml(lv)} (${list.length})</td>
+          </tr>
+        `;
+
+        for (const item of list) {
+          const level = normalizeLevel(item.level);
+          const title = item.title || "";
+          const artist = item.artist || "";
+          const comment = item.comment || "";
+          const note = item.note ?? "";
+          const total = item.total ?? "";
+          const judge = item.judge ?? "";
+          const md5 = item.md5 || "";
+
+          const songUrl = item.url || "";
+          const diffUrl = item.url_diff || "";
+
+          let titleHtml = escapeHtml(title);
+
+          if (songUrl) {
+            titleHtml = createLink(title, songUrl);
+          }
+
+          if (diffUrl) {
+            const diffName = item.name_diff || "差分";
+            titleHtml += ` <span class="small">[${createLink(diffName, diffUrl)}]</span>`;
+          }
+
+          html += `
+            <tr class="data-row">
+              <td class="col-level"><span class="level-badge">${escapeHtml(level)}</span></td>
+              <td class="col-title">${titleHtml}</td>
+              <td class="col-artist">${escapeHtml(artist)}</td>
+              <td class="col-comment">${escapeHtml(comment)}</td>
+              <td class="col-note">${escapeHtml(note)}</td>
+              <td class="col-total">${escapeHtml(total)}</td>
+              <td class="col-judge">${escapeHtml(judge)}</td>
+              <td class="col-md5">${escapeHtml(md5)}</td>
+            </tr>
+          `;
+        }
+      }
+
+      html += `
+            </tbody>
+          </table>
+        </div>
+      `;
+
+      content.className = "";
+      content.innerHTML = html;
+    }
+
+    async function loadJson(url) {
+      const res = await fetch(url, { cache: "no-cache" });
+      if (!res.ok) {
+        throw new Error(`${url} load failed: HTTP ${res.status}`);
+      }
+      return await res.json();
+    }
+
+    async function init() {
+      try {
+        header = await loadJson(HEADER_URL);
+
+        if (!header || typeof header !== "object") {
+          throw new Error("header.json format is invalid.");
+        }
+
+        const tableName = header.name || "Difficulty Table";
+        const symbol = header.symbol || "";
+
+        pageTitle.textContent = tableName;
+        document.title = tableName;
+        pageSubtitle.textContent = symbol
+          ? `Symbol: ${symbol}`
+          : "Difficulty Table";
+
+        const dataUrl = header.data_url || "score.json";
+        const scoreUrl = resolveUrl(window.location.href, dataUrl);
+
+        descriptionBox.innerHTML = `
+          <strong>${escapeHtml(tableName)}</strong><br>
+          header.json: <code>${escapeHtml(HEADER_URL)}</code><br>
+          score.json: <code>${escapeHtml(dataUrl)}</code>
+        `;
+
+        scores = await loadJson(scoreUrl);
+
+        if (!Array.isArray(scores)) {
+          throw new Error("score.json must be an array.");
+        }
+
+        levelOrder = buildLevelList();
+        populateLevelFilter();
+        render();
+      } catch (err) {
+        console.error(err);
+        pageSubtitle.textContent = "Error";
+        content.className = "message error";
+        content.textContent =
+          "読み込みに失敗しました。\n\n" +
+          String(err && err.message ? err.message : err) +
+          "\n\n確認してください:\n" +
+          "1. index.html と header.json が同じ場所にあるか\n" +
+          "2. header.json の data_url が正しいか\n" +
+          "3. score.json が正しい JSON 形式か\n" +
+          "4. GitHub Pages の URL が正しいか";
+      }
+    }
+
+    searchInput.addEventListener("input", render);
+    levelFilter.addEventListener("change", render);
+    clearButton.addEventListener("click", () => {
+      searchInput.value = "";
+      levelFilter.value = "";
+      render();
+    });
+
+    init();
+  </script>
+</body>
+</html>
