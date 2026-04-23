@@ -11,8 +11,8 @@
     "note": 8100,
     "total": 1620,
     "judge": 3,
-    "md5": "6655f6e3e70a83243bb3195003196e03",
-    "sha256": "f361625b6ad1dd10fc21c1414024ebaa4b27fe8932fc865455a65e927dda52d5"
+    "md5": "ea797edf5d6ec59a0235c31fcfe5635a",
+    "sha256": "b63306c85a28db0542c6de2f958f97803d822c11406f8b211ea194cc9e2644a7"
   },
   {
     "title": "Simple [Radiant Panorama]",
@@ -26,8 +26,8 @@
     "note": 7460,
     "total": 1492,
     "judge": 3,
-    "md5": "1398081934e67812e5ef94e093125fe1",
-    "sha256": "acbce24be270c68e84132423916954fb6f99e9107d35ce9d309b65c0ba7c55c6"
+    "md5": "71dc2150dc1f46bd6143500a58e7cf10",
+    "sha256": "c6494c8fbca592857fee79d35be6556aa926820e8d4f511cc2635ef07eb85f68"
   },
   {
     "title": "Zygourous Distribution [Abyss]",
@@ -41,8 +41,8 @@
     "note": 5299,
     "total": 1059,
     "judge": 3,
-    "md5": "d935de69b897b754589dd6fed9974f09",
-    "sha256": "c642697a8ffba193450051f717b9356743faac6dd154557b629f22345df65826"
+    "md5": "4f0619c65ba0691bbc0ce89adac28975",
+    "sha256": "29ea0cdc55d1673ad6ba46dde3f507cf6f5fd852cc93a1da0d03c9781abd231b"
   },
   {
     "title": "Fake.Fake.Fake [Freak]",
@@ -56,53 +56,53 @@
     "note": 9033,
     "total": 1806,
     "judge": 3,
-    "md5": "1eb6e2c57082ca4dcd9aedb4f90f5c00",
-    "sha256": "be74bc6d2611b7d80c47f92e38cd0492c8ffc4eed5d2a48f4cac316a4096095c"
+    "md5": "cdcb08514c184bc646d6f99f188c03b4",
+    "sha256": "450276d1b320d1f66e7512c3fe85b653b0f185cec34c9373c3ec37fdb59529f6"
   },
   {
     "title": "Sense (\"Leads to Another\" Full Version) [Aesthetic]",
-    "level": "st6",
+    "level": "LN",
     "eval": 0,
     "artist": "BilliumMoto & Silentroom/obj:mlaassss",
     "url": "https://osu.ppy.sh/beatmapsets/1768710#mania/3620619",
     "url_diff": "",
     "name_diff": "",
-    "comment": "st5.7",
+    "comment": "LN",
     "note": 6486,
     "total": 1297,
     "judge": 3,
-    "md5": "d3c1d319a7cefa5b045e463676d4a027",
-    "sha256": "bdb70e68574b9ccd2085a914992e2ad26d2c8e5c38278ac8fab20bf6b4de6ff1"
+    "md5": "74ca8242b96ea13a8c3c330eb0a83d1c",
+    "sha256": "44c5a65c5b7d547a01bc5307a992d221e117d1c4bf31d43af7221a6935d27f27"
   },
   {
     "title": "Sense (\"Leads to Another\" Full Version) [Dreamy Rainy]",
-    "level": "st7",
+    "level": "LN",
     "eval": 0,
     "artist": "BilliumMoto & Silentroom/obj:mlaassss",
     "url": "https://osu.ppy.sh/beatmapsets/1768710#mania/3620620",
     "url_diff": "",
     "name_diff": "",
-    "comment": "st6.6",
+    "comment": "LN",
     "note": 6841,
     "total": 1368,
     "judge": 3,
-    "md5": "7ab4c97723079d24afece38b7e2b3379",
-    "sha256": "4ffccd6c16a3e481a6b796a96a2f622aef5c344dbf42a480dfba659b4a5510b1"
+    "md5": "6af4623e07bd3a58a641ed1eec45ffc8",
+    "sha256": "b1838f8b85f47534adddb59bb3309f73cdb05decb0dd078c5fc7fb0713c170bc"
   },
   {
     "title": "Sense (\"Leads to Another\" Full Version) [Ester Rainy]",
-    "level": "st6",
+    "level": "LN",
     "eval": 0,
     "artist": "BilliumMoto & Silentroom/obj:mlaassss",
     "url": "https://osu.ppy.sh/beatmapsets/1768710#mania/3620621",
     "url_diff": "",
     "name_diff": "",
-    "comment": "st6.1",
+    "comment": "LN",
     "note": 6625,
     "total": 1325,
     "judge": 3,
-    "md5": "652120c18ee7a2154c5c9dad1c196107",
-    "sha256": "36adc377815621f375bbf00094df90baab3bd7f44637eac9e2f89b4b16337d65"
+    "md5": "def5bfbe544f4c60969db30b0259c4ca",
+    "sha256": "a971c2b58dc9a3277154d306fe7a99684697f4a4a8bb7d802dad1882da28e992"
   },
   {
     "title": "Speedrun [highway 0.9x]",
@@ -116,8 +116,8 @@
     "note": 8986,
     "total": 1797,
     "judge": 3,
-    "md5": "91c39d70d9a5ea8fb11b9d8ffb1204fa",
-    "sha256": "cbc524a62654ee4dcc1d2afe8e0d33e2830b14cd18d4d20fe3ac8e8ff58717e8"
+    "md5": "539a0f14e2678fd59f741f39bc0345eb",
+    "sha256": "d1654dde3c19284868244600c0ea9e1e5992f5674079d9b6a5cb60d183c2e775"
   },
   {
     "title": "Speedrun [highway]",
@@ -131,8 +131,8 @@
     "note": 8986,
     "total": 1797,
     "judge": 3,
-    "md5": "7a3b9e92a2a4a83b8b7c97ce0de021c9",
-    "sha256": "1410fbac00d2dbd830aeca65953d331b71bf9ae4e186b8cd212bf9771a8cc0b7"
+    "md5": "afb523eeca87ada61e69c82f97d19c98",
+    "sha256": "f2f663ff4c0127caa1e80e8cdcb2952e6a84e43f32f50c5a4ce228b8c6f7b5e2"
   },
   {
     "title": "sink to the deep sea world [subsided abyss]",
@@ -146,8 +146,8 @@
     "note": 8236,
     "total": 1647,
     "judge": 3,
-    "md5": "7494ed3ebe5b192ded6b497c9bf5b425",
-    "sha256": "5e568c972386664c3b673391bc63cd8b95695e7c213be0a8166985bfb60203be"
+    "md5": "e3feaf048b3977ac378d1dd97a16d330",
+    "sha256": "829e7d0453976cf99b653a4dc863a974c2065eb0336d82ceb5281a7e088bee7d"
   },
   {
     "title": "ドゥサンコオデッセイ!! [Almighty]",
@@ -161,8 +161,8 @@
     "note": 3572,
     "total": 714,
     "judge": 3,
-    "md5": "d5390f604d05168de9f083a80be82095",
-    "sha256": "86a5ad38cb17e40f913b23b5ec980a88db92e22edfed99b054997ba808dcbfb2"
+    "md5": "5aab8f3206f2f00a7b8c3c607448dbba",
+    "sha256": "9b6e69181db114fceae42e00669f79fd81bf0b6018b4d1cc7c73bbb113854d7e"
   },
   {
     "title": "Immaculate Taste [phoneyaong]",
@@ -176,8 +176,8 @@
     "note": 1148,
     "total": 229,
     "judge": 3,
-    "md5": "d2b368ddc4a1f9ca5b6352d7b8f62ba7",
-    "sha256": "7a585512390246d8ea95310229efb7d476d52ad986908743818b2f9247e966fd"
+    "md5": "2ac0ae051b29a043b0b3dcdcb19ed20e",
+    "sha256": "febb3215b533b2710c2c4c797b650eba37fa657c89144f87704c7f6696d4cfa5"
   },
   {
     "title": "オドループ [dancehall]",
@@ -191,8 +191,8 @@
     "note": 6800,
     "total": 1360,
     "judge": 3,
-    "md5": "c86774a78fb5c724bcb5de9ed67e2c22",
-    "sha256": "f342eeec789bbac573bf3dd44119999edd790ce217a4ff6168284bf1130204e3"
+    "md5": "04859412f7d4c19979f61f0c70d22ca9",
+    "sha256": "1b75d20e461ea19e6168857e40c871d533fde9ac8d157d9ab4425165b0b43b81"
   },
   {
     "title": "Oto no Naru Hou e (TV Size) [bowl]",
@@ -206,8 +206,8 @@
     "note": 2803,
     "total": 560,
     "judge": 3,
-    "md5": "54e78cf46c574e3dff3f42b871b94b8d",
-    "sha256": "ab190d7a7bb7c378b4cae1662be7fa9384bfcbdeb5eb49b06612c636a432960c"
+    "md5": "77e046e8857956b48601c1caedb90284",
+    "sha256": "055f3b31e5bcb374c413c656f971003bf6b7dc90a188f48659afd6ce558bf887"
   },
   {
     "title": "Rubik's Cube [0.85x]",
@@ -221,8 +221,8 @@
     "note": 6367,
     "total": 1273,
     "judge": 3,
-    "md5": "08b7a8d32d4c78493489ac7dbf3f607c",
-    "sha256": "67f85d846a743e8ff529a3caa697d5c6eac3b4e1f56618ff59a3cea3070e14a5"
+    "md5": "4270a2995371588db63f103b6863b37a",
+    "sha256": "91c404843255274f56efc74b300412b42ad5c0bd417701a4eed563ecd80ec86e"
   },
   {
     "title": "Rubik's Cube [0.8x]",
@@ -236,8 +236,8 @@
     "note": 6367,
     "total": 1273,
     "judge": 3,
-    "md5": "44a384e4e783f2ae4f79aa0e6c6b7eb9",
-    "sha256": "5082885c20708ea883652b79b8decb90613e5a2e97cc40e281fe5e0e72e1f57c"
+    "md5": "35a1877da876829b9c0719e569d769b0",
+    "sha256": "d54654a92d0bc4668eb6a36025c899003cdc9f05648a89fe673c4ac89127316a"
   },
   {
     "title": "Rubik's Cube [0.95x]",
@@ -251,8 +251,8 @@
     "note": 6367,
     "total": 1273,
     "judge": 3,
-    "md5": "537a89e1542af596c760bbf7fba58ad8",
-    "sha256": "fa75b59f5f1b0f5518eae274cb0e2482400104fb4c57cfa9ebde0ea901ef07a6"
+    "md5": "2d38440e2ff9269aa40914d5e15bdde9",
+    "sha256": "c2837cfc1de84538619352b684ffb2057303a855fe26989e98a24da7c6dd9e66"
   },
   {
     "title": "Rubik's Cube [0.9x]",
@@ -266,8 +266,8 @@
     "note": 6367,
     "total": 1273,
     "judge": 3,
-    "md5": "4fce2263356cb9013eff49b9ff20bf54",
-    "sha256": "4ea0d1ecae10159eeae15ebf22cecf77b2468dda62149d990a1e42175ea536fa"
+    "md5": "0419511d2bfa20e9526084ac8f56f648",
+    "sha256": "79ed4fd4d207ffd2cfee7c8c6d8b36d1d4f03ead2c0c090243eed3352533e611"
   },
   {
     "title": "Rubik's Cube [Shining Trapezohedron]",
@@ -281,8 +281,8 @@
     "note": 6367,
     "total": 1273,
     "judge": 3,
-    "md5": "9c0aeca829584903cb18d916a63ce1db",
-    "sha256": "215dd4be8f5d76f38b7ec191c550868fccb68b266b7d7c8e53dbdc967bdbd5b4"
+    "md5": "8e5f0dac7ec1b495f4f33be1f220d0e6",
+    "sha256": "00db9624a6b7574b4225cf178df88f7a28bfb5d2d871bc26d5c81d3704f4515d"
   },
   {
     "title": "朧 [quixotic flowering 0.9x]",
@@ -296,8 +296,8 @@
     "note": 5328,
     "total": 1065,
     "judge": 3,
-    "md5": "4ada716fe25a8f2afa941247dfa5455c",
-    "sha256": "842aae892fa98073ace201479fd9e8ebec2f2abe591354392630546f4276bdfc"
+    "md5": "1f01422e67c5ae031c74e8fa1a53f3d5",
+    "sha256": "e025243b4e2d3b2625ddd8bb52352e6013e74773ef980dce49a3fb9f81a632b3"
   },
   {
     "title": "朧 [quixotic flowering 1.1x]",
@@ -311,8 +311,8 @@
     "note": 5328,
     "total": 1065,
     "judge": 3,
-    "md5": "de544d6dcfe8696b2141e9a586e1dfed",
-    "sha256": "a4df6ef7058ca0b1c50132bb13d11a081c6856fd4472649c807973013828ff80"
+    "md5": "c19e0668b3dde80655a7a8a6473a3de8",
+    "sha256": "dd6bbf33ab45c883b2a0d78294e4a939693ac723fb46399ef5c5a0f96d895053"
   },
   {
     "title": "朧 [quixotic flowering]",
@@ -326,8 +326,8 @@
     "note": 5328,
     "total": 1065,
     "judge": 3,
-    "md5": "65712213dff40a1b98df81263fb2d8ea",
-    "sha256": "35f9b8b5a94fcfeecc7ab327199471730a791f77f5000cf65652104335fe5e7c"
+    "md5": "9eb3b9fe5f4a3df7ddc26b3b14171e96",
+    "sha256": "fec965b390cb4d8b14b5b5133fa757f20fcc593225eb2ec5a865b5b04f013f14"
   },
   {
     "title": "Blueming [Illuscent]",
@@ -341,8 +341,8 @@
     "note": 6438,
     "total": 1287,
     "judge": 3,
-    "md5": "c0bfdf40fe20f9e644de3b90f11e937a",
-    "sha256": "9800ebcd2e413db8a96961f21e1798d0039f1f873cc060bf0b26c939d82587a5"
+    "md5": "ba0e156ad1236aac34371e60f75bfacd",
+    "sha256": "8a8846b6800001bbaf708208b6d45f610cc214e1ea491df9515961023ef58f97"
   },
   {
     "title": "seal the 3rd.mp4 [goyaong]",
@@ -356,8 +356,8 @@
     "note": 976,
     "total": 195,
     "judge": 3,
-    "md5": "5888528d6b26ecfb529bbd1c4b386c2b",
-    "sha256": "8161a53bf7336d944fb05d35fd1863eee127dee8b86dde66807398b2bee18695"
+    "md5": "f757c508b8faa9fc86c5f429b56d339d",
+    "sha256": "27a0fac62ff71b468b23c990cff99575197a35ead11da92e641d547a8f6d9abe"
   },
   {
     "title": "#WE_STILL_LOVE_PERFUME [Perfume Blast 0.92x]",
@@ -371,8 +371,8 @@
     "note": 10360,
     "total": 2072,
     "judge": 3,
-    "md5": "c92fc7e54dd5f0f69f37cfb5f2d1c3c7",
-    "sha256": "27794cca3329accbd6ad741171128749239c2f5b4004413862a5be36a7db8441"
+    "md5": "68fb1663dd9df9cc5e24fc1b8ce99f9a",
+    "sha256": "7d0c03148afa439f81bd22bb87141a99d0d13dab6e6f54e532462f16d5945b53"
   },
   {
     "title": "#WE_STILL_LOVE_PERFUME [Perfume Blast]",
@@ -386,8 +386,8 @@
     "note": 10360,
     "total": 2072,
     "judge": 3,
-    "md5": "6d23183ebb61607b972177b669175ba8",
-    "sha256": "b4dabe03efacd04330ba509baac6caeb280e226a58174d24dae8a7d2b5ec0efc"
+    "md5": "278da959f4ba430ca9bdcbbed7e6be21",
+    "sha256": "d6df9590e81ab74c5c7b756618cf75b71a60f8a268fa60325c98cf9457b2e033"
   },
   {
     "title": "Aurora [Descending Polaris 0.92x]",
@@ -401,8 +401,8 @@
     "note": 4801,
     "total": 960,
     "judge": 3,
-    "md5": "0d36dbb42955d5f92d00a37d54dba908",
-    "sha256": "6008d5dcc0c18436f00a6dce1cce4037c2ea8c97171e81dbc50623443df4d051"
+    "md5": "832c5fcd3e707ead0a9d6f097d215b45",
+    "sha256": "1e1a7ead2119f123ab57f71e05b14e986d71d2697b762647825d455560e5cbf4"
   },
   {
     "title": "Aurora [Descending Polaris]",
@@ -416,8 +416,8 @@
     "note": 4801,
     "total": 960,
     "judge": 3,
-    "md5": "82e3166f6f288437e5b3065e331fac7f",
-    "sha256": "b567715dc2213587c21c6b6269d713ba43c668de7745c083fd4555e19cc05358"
+    "md5": "0ad8f33e67ee00c63c00f576ea3a6fc2",
+    "sha256": "491ad4f9131451820824c88149f60929d18d00c12cdc9d198712c00936d40c85"
   },
   {
     "title": "VIIIbit Explorer [Adventure]",
@@ -431,8 +431,8 @@
     "note": 3669,
     "total": 733,
     "judge": 3,
-    "md5": "6c64b3488bdd056216d8e41124f6018a",
-    "sha256": "cc2301da0b3f35db3eac7bb3e8b6968373c2f1cb1cdcfd7e6656bf35cf405791"
+    "md5": "779b37d84d5d614a7cc811390bf70f5c",
+    "sha256": "103a5969a9d4da47a122d10e3389f8b2a120b2304c2618e940f7806c08207a00"
   },
   {
     "title": "Colorful Cookie [Heavenly 1.1x]",
@@ -446,8 +446,8 @@
     "note": 2704,
     "total": 540,
     "judge": 3,
-    "md5": "3d0d944cae021cf3952c5f4401f6d003",
-    "sha256": "9c85e581602196255ac2e7d6fdbee19ccec1400db44374fdb21615a7eb596f58"
+    "md5": "7c9f72956b1580e2879078f39e9d0c68",
+    "sha256": "191cc8712cd6d1ba3b52c43e0bf4819974e2821d40eca0d23f79a78f650b586d"
   },
   {
     "title": "Colorful Cookie [Heavenly]",
@@ -461,8 +461,8 @@
     "note": 2704,
     "total": 540,
     "judge": 3,
-    "md5": "7403d6f8c96bad252d8977c26d66c7c2",
-    "sha256": "9c864c8874f6d0e95404667013be45ead476765fe856ec14a91cf9fb488cf8e9"
+    "md5": "9eeb0f939db00a14f4285930bb2a57da",
+    "sha256": "042279085ad07d4761fb2f609eee9eb7d45735ceab786f14dc399946336e7cd7"
   },
   {
     "title": "Artificially Flavored Pink Jelly Bean [Electric Cherry Blossom 0.92x]",
@@ -476,8 +476,8 @@
     "note": 8410,
     "total": 1682,
     "judge": 3,
-    "md5": "316a93e9a0ab54037e0d10798ad19e31",
-    "sha256": "530383b3a680a9f20dcfc92e74795b76ff69b1bc88947e4d59e86f5b7ba68429"
+    "md5": "f0e8ac2edbf6262f846beeef76c27264",
+    "sha256": "24f8033991889e784506e92f31a54e5dbfb257f2c6aa5bd0938f13d75056a64f"
   },
   {
     "title": "Artificially Flavored Pink Jelly Bean [Electric Cherry Blossom]",
@@ -491,8 +491,8 @@
     "note": 8410,
     "total": 1682,
     "judge": 3,
-    "md5": "f1f0c147c4ce32f0cbd7dde65590181b",
-    "sha256": "fd47fae3f4c44af91b3f38f7476f361ecc80d1a39bd092cf9912ef7b76248944"
+    "md5": "8ab39b6fb87990b67b612281a06e9bba",
+    "sha256": "151595598e3d9cf25876369dfee12c4702670e2cfecd2037eef546badbef2521"
   },
   {
     "title": "SnowMix♪ [Starwinter]",
@@ -506,8 +506,8 @@
     "note": 4217,
     "total": 843,
     "judge": 3,
-    "md5": "dd0738975a7ff4bd9af51ae27210fd69",
-    "sha256": "e14ffe967e17d683258cda8fffdffac2a39e17878f8b0c24ac1cfb7d315aec81"
+    "md5": "79573656a0df7a8f987ceec45f0389e5",
+    "sha256": "8dbda49c7eb4a90fb2b66e740b221220be31ecc780bffab6c85304b4be713f4b"
   },
   {
     "title": "Re:union [Forever together+]",
@@ -521,8 +521,8 @@
     "note": 1293,
     "total": 258,
     "judge": 3,
-    "md5": "7a58f15e8a906fb2bc0e048988f3f2ff",
-    "sha256": "2e92ee904259b66dadd3d27a382ef154f413abefe0c88ca326e7b28186ccce23"
+    "md5": "4ad0b4491d1a588adf6434883d73fd34",
+    "sha256": "246cc1621c0db0087da6dd87e51bebb3c6b01c827581cce5c8a592d21fdacc0a"
   },
   {
     "title": "Re:union [Forever together]",
@@ -536,8 +536,8 @@
     "note": 1160,
     "total": 232,
     "judge": 3,
-    "md5": "d5166ef451184d55c66d06fa81774acc",
-    "sha256": "36e2da8654e33bce7d4332a843fb5aaca2d904976bdd8b5de5d046d830cf24c5"
+    "md5": "fbd33396a2bffce565a956f70f85d1a2",
+    "sha256": "418d4bed0b0386b89f725dde844f857c1938ead94c28be2137b0bcc2981ac0c2"
   },
   {
     "title": "完全放棄宣言 [C_C 1.1x]",
@@ -551,8 +551,8 @@
     "note": 8309,
     "total": 1661,
     "judge": 3,
-    "md5": "6b45cb69b0d49c743ec7fd82d4f40636",
-    "sha256": "cfa4358e1d9c599283e9e08259c99be12d9fbc067f115b117f8c9a2ae2634c2a"
+    "md5": "f9f8c1a69866072a825b9b9f25b561dc",
+    "sha256": "e3c15f6eac0a02ecd142a5f87bcddfe0b17cc5c4094d811f777f8439b2bb3fe4"
   },
   {
     "title": "完全放棄宣言 [C_C]",
@@ -566,8 +566,8 @@
     "note": 8309,
     "total": 1661,
     "judge": 3,
-    "md5": "7aef33e9983d8ca07d0d9b88065a3868",
-    "sha256": "d44394ff7a838c56328055c135506e06028a85bb77d84a7836768139cc0f48db"
+    "md5": "7f68b73306f70d473987024154a4df69",
+    "sha256": "8ea4ce98a5f66e7dc1efef61d2f9988e9fbb3db62ab0cbf64d1405633faae41b"
   },
   {
     "title": "Cosmoscapes* [A. D. 5500]",
@@ -581,8 +581,8 @@
     "note": 4680,
     "total": 936,
     "judge": 3,
-    "md5": "f34213fd309991c0c468dc02b596495b",
-    "sha256": "0194842060917fa4aa8146a6d3b5973ce10a8abb82613e93f8d1cf869cd5d742"
+    "md5": "c8b1e6d96949c2e961471c8c08ba772f",
+    "sha256": "24082d6cde0f6813bf616091960871ed45d8886b8197053a6b01714dcdf32d8d"
   },
   {
     "title": "Daydream (feat. mega & Sithu Aye) [Lucid]",
@@ -596,8 +596,8 @@
     "note": 7600,
     "total": 1520,
     "judge": 3,
-    "md5": "10192706c3b98301ada35378f451d9ed",
-    "sha256": "ea3772f26164ac8527a5e58800c38473052f348fbbf7d5bb9d0a5349cd56e810"
+    "md5": "90dd3a969f920e2316252a0c53868280",
+    "sha256": "4b9017a3e3d12e2d4064cd4799ebf4ea81a019032d7599f63e1a5abc2f9e0b22"
   },
   {
     "title": "Splash Code - 0 6 [yahangeo]",
@@ -611,8 +611,8 @@
     "note": 2883,
     "total": 576,
     "judge": 3,
-    "md5": "44acb0611ea99673fd42f3d13a7bb135",
-    "sha256": "dac4148f03a0dd9e746a119de853906faa0b020336e75ad51d4f796577644a0a"
+    "md5": "c2d3f557d6c0f620fcc57237c5ef0a55",
+    "sha256": "60caaecf1727b2f18acd151fa6aff2aefa52a1aa318c7f41ea7baf9d3ffded80"
   },
   {
     "title": "TSLove [BMSLove]",
@@ -626,8 +626,8 @@
     "note": 3110,
     "total": 622,
     "judge": 3,
-    "md5": "c7613f7ef4198241d113cb801a0bf111",
-    "sha256": "c9d2dadce4c2df5ca569a13455f5cc4c080f6dd879a8db68d703316b5a518296"
+    "md5": "4b26a0f45b91c2e83eacc0e7480408a8",
+    "sha256": "fccccb131c17f6ce4dedc9f066b9cc75d99c68a9be7cc1aaf37f18fd4e5a8a95"
   },
   {
     "title": "Discordia [Crescendo]",
@@ -641,8 +641,8 @@
     "note": 3520,
     "total": 704,
     "judge": 3,
-    "md5": "edc30c7855e250b124df489200101e4b",
-    "sha256": "784587ba26987f37f1d67ccc206417caa0db7bfe8e1cacbac6666bb9c0dc49f2"
+    "md5": "c7bcca7e4db7c24241a4bbae41136681",
+    "sha256": "7d7a7692f8fbf97e907afc7595775bdefdf74829fb3ca7a947aaa5cfb9a4adaf"
   },
   {
     "title": "再生 (Cut Ver.) [harae's Perfume Blast (220bpm)]",
@@ -656,8 +656,8 @@
     "note": 2979,
     "total": 595,
     "judge": 3,
-    "md5": "448d1ea1ace6ae935feec6bf5fc62a42",
-    "sha256": "109a014cb0248c98a1cbab5501a5686dd97363fc7ad73e7f0249c8739e032d7a"
+    "md5": "3407bfeddf1c2b4e2b9383bd120a040e",
+    "sha256": "752bddb7175f2fcf6e479556b2def9ba0c0b636caee13d076e583ae2cb83213d"
   },
   {
     "title": "再生 (Cut Ver.) [harae's WE_STILL_LOVE_PERFUME]",
@@ -671,8 +671,8 @@
     "note": 2979,
     "total": 595,
     "judge": 3,
-    "md5": "8743ea1f55ced8e4124c82682944cce6",
-    "sha256": "2cb1a9aee2b07f9c5631dde580c102c2f9f7150d1fa2da8921ed9335baad2d7c"
+    "md5": "7a4d4d043fecf4e6d05fa936ac4c4ee4",
+    "sha256": "be05e864c7c7e2af23e1f474f5362805ded21c394ae09eceb8cbfa90b9ee942b"
   },
   {
     "title": "週刊少年バイバイ [deadly hiatus 0.92x]",
@@ -686,8 +686,8 @@
     "note": 7556,
     "total": 1511,
     "judge": 3,
-    "md5": "70de4ae1ed85d9f5d485661ad1bed9a6",
-    "sha256": "2820d0822b6119f889d19b2c72b4d13c0bc0c025c39c0d4a1c2101564bacad34"
+    "md5": "347e455daa9f86b9717e2dbbefc9b963",
+    "sha256": "dcc3a41d382cc73e85a0ce9c8eeb8b7fcb24f3658b2e79b3f0044718c3728ac7"
   },
   {
     "title": "週刊少年バイバイ [deadly hiatus]",
@@ -701,8 +701,8 @@
     "note": 7556,
     "total": 1511,
     "judge": 3,
-    "md5": "726ec4d7dab6c4445ff9d9f4594c68ac",
-    "sha256": "f6d736e88f97ec7c2c6ad0d1b524b2562075108ad7700dd9f4debff1d81457d1"
+    "md5": "4c5efd92a6cc877b9b27a53b6817f1fd",
+    "sha256": "522bf002d2620b05ff256108bdb5d6d16406f92003d7f555dcf4d446cf7a8ec8"
   },
   {
     "title": "the EmpErroR [lost empathy 1.1x]",
@@ -716,8 +716,8 @@
     "note": 4295,
     "total": 859,
     "judge": 3,
-    "md5": "836a01e2f3b1d3065ed8fd19c2c8410b",
-    "sha256": "6e2ae135ba38310cf677bfe4edf3b2ded89ced926d7aaa3fd44fba48fdca8dcd"
+    "md5": "de2daa10e05b02c67c2dbbc28deec98c",
+    "sha256": "c06565884bfee34b98d3e47759ee9b27526a409708f64b35129da56ce09d999e"
   },
   {
     "title": "the EmpErroR [lost empathy]",
@@ -731,8 +731,8 @@
     "note": 4295,
     "total": 859,
     "judge": 3,
-    "md5": "68ee9f1010f4d4e3fce1771c71fc6717",
-    "sha256": "e71d65c43b7d2faac9601480e8461cdfe0342d70fe90f9349237584e2e2481a9"
+    "md5": "15087ae3ac12f23ffb415bc793d0f945",
+    "sha256": "88cb5f04422ff5557dc3d3dbe61e9abf234e8f748e9a9120818774f9c17fe798"
   },
   {
     "title": "Underwater [underyaong]",
@@ -746,8 +746,8 @@
     "note": 1264,
     "total": 252,
     "judge": 3,
-    "md5": "de63c7bb8aff16a36321eeeb0f853141",
-    "sha256": "e26447fd32da99850d60a4fc9fa3a23289291af0fa240a855bd887e6b6720c4c"
+    "md5": "c1d0b3f7c6ae9f92f7373c0006434d25",
+    "sha256": "9ac1f1656bbb07bc1bdbc17d7d0c8cd17af55a65043fb90a59ee2a8816f49e69"
   },
   {
     "title": "愛なんですよ [Heartless]",
@@ -761,8 +761,8 @@
     "note": 6934,
     "total": 1386,
     "judge": 3,
-    "md5": "2d3e31ba0257ec35cae37a6a3ba1ca86",
-    "sha256": "c95d0c7b748ea9602a72bf2ffb4aba612cc8939d852a6595ee2e2c4756b4f4d6"
+    "md5": "67115c5ea71395ab318e8d3eb7eaee44",
+    "sha256": "9b3ff89885b945569df193563d6563e9773b360bfc1c1f26115b672be8e35d8e"
   },
   {
     "title": "それは、真昼の彗星 (Chroma gochapon remix) [distorted starfall 180]",
@@ -776,8 +776,8 @@
     "note": 9871,
     "total": 1974,
     "judge": 3,
-    "md5": "1e9df0af73c6aaddba91ef9fa1aab355",
-    "sha256": "5720f883bce9a70e9cd238105c1f74043ca1721bbfb71905f505809a57be6cdd"
+    "md5": "d90d814ba4fffed13cf665e01df7dd36",
+    "sha256": "5549c8c4ae0142caad299ceae386f496ab812ae0f0fdc48b793dadc2d38eded1"
   },
   {
     "title": "それは、真昼の彗星 (Chroma gochapon remix) [distorted starfall 190]",
@@ -791,8 +791,8 @@
     "note": 9873,
     "total": 1974,
     "judge": 3,
-    "md5": "653c871671070c0b494e474db1c71056",
-    "sha256": "58cd419894d2f8e252a23df3799bfec2972bdbc7704eae6d007cc2fea42d891a"
+    "md5": "b8dfc9f8e68607ce9f61e6999c3e711c",
+    "sha256": "628693901251f58c63edcf16dcd3a8875881f9d67fde79d80d29188aa3416367"
   },
   {
     "title": "それは、真昼の彗星 (Chroma gochapon remix) [distorted starfall]",
@@ -806,8 +806,8 @@
     "note": 9873,
     "total": 1974,
     "judge": 3,
-    "md5": "1b9963ee004b1432861a6e1a20a68856",
-    "sha256": "706570456c5f7ea88a854d75138093661d47739d2f4fc1f19876af2c51da8695"
+    "md5": "4841549aec6cd676b82df40634f1a592",
+    "sha256": "fa45d9a3f8a07bc57747ce0b771de85c8a027bdcfe64cf9f9fd33ce3d5b04423"
   },
   {
     "title": "EVANESCENT [Uchronia 1.1x]",
@@ -821,8 +821,8 @@
     "note": 4261,
     "total": 852,
     "judge": 3,
-    "md5": "3bdcd3b01dbadb0b821a1df6003d4f4a",
-    "sha256": "8b41a4eccd6987d6360f4a884a9437c308acbd058c8ee5a49775913c0038941a"
+    "md5": "c8a68acaf9732893a2523d8ce0be0d16",
+    "sha256": "92cc3a780b7721d651088a4b448a63e6f75c09a6c99638b302e138e5dc7fe9cf"
   },
   {
     "title": "EVANESCENT [Uchronia]",
@@ -836,8 +836,8 @@
     "note": 4261,
     "total": 852,
     "judge": 3,
-    "md5": "bfc0250b64a9bdd3d74d203949d698dc",
-    "sha256": "980d68b44940bf2ed6648198d7be8805ad92ba6737d5b0c34dd52c21b91bb955"
+    "md5": "b41150fcb22f95cc49d05b8f15209326",
+    "sha256": "5aa7d453b4ef20de16179bc3524eb6878666f3e239e064afce188d8753e3c5ae"
   },
   {
     "title": "Tender Kiss [Touch The Feather 0.9x]",
@@ -851,8 +851,8 @@
     "note": 7310,
     "total": 1462,
     "judge": 3,
-    "md5": "ce4baa1eb4a853597afeace24a7b5ee2",
-    "sha256": "211031a339b51826f504032fcdfab20985eff12d422f1f611a8134c488e80efd"
+    "md5": "71f235654bf875e335cb2c3a69064753",
+    "sha256": "b308c4fa7c172eb814b61fb6f7876e9ea1970e69913c2f74e07018b18d9b43a7"
   },
   {
     "title": "Tender Kiss [Touch The Feather]",
@@ -866,8 +866,8 @@
     "note": 7310,
     "total": 1462,
     "judge": 3,
-    "md5": "173333db733da526ec465e701dce4043",
-    "sha256": "c5f4eacfe23e3f6de07386b5df3e8d7ecf77c48088c4968c5623b2e870708f8c"
+    "md5": "d5e3e1130d484c93fbd865602b203a18",
+    "sha256": "afbdaf12d3f6476157bbe28bf92599b49f35f9747c0230b71f3f72253451f23d"
   },
   {
     "title": "Kamuy (DJ Noriken Remix) [step stage]",
@@ -881,8 +881,8 @@
     "note": 4318,
     "total": 863,
     "judge": 3,
-    "md5": "63ea62b7777cf9509cb5f5e5895f50f5",
-    "sha256": "18f84e70254b99c91fcb6a9de80b5ddfedf62f0c835a38617cd53d914a333e9b"
+    "md5": "23e2576a71226ac7e991d15b70be5fe4",
+    "sha256": "a9e2f35ef88383b96cba0c0ebd9131aaf789db873f8f1a0175bb29b6b9a08d47"
   },
   {
     "title": "Linkage [Perpetual Memories 1.1x]",
@@ -896,8 +896,8 @@
     "note": 4680,
     "total": 936,
     "judge": 3,
-    "md5": "3ad98aa6f8677c658ecab49af74f2467",
-    "sha256": "f03e78e973b3894fc202fd9cdd8d560804af8e2d4e1e163e7ad2a56c3526f7c2"
+    "md5": "9ffefee20e2cded6421fbd684f86e714",
+    "sha256": "1a554f2d754fc1f6c41bf1e673d6f97c67c03af878d4971358fe27915d7f3694"
   },
   {
     "title": "Linkage [Perpetual Memories]",
@@ -911,8 +911,8 @@
     "note": 4680,
     "total": 936,
     "judge": 3,
-    "md5": "d6ce3b2375ec09179fa74eca2920f7e3",
-    "sha256": "90bb5c4bce41731b702555e4ecbbcdeda62fffb18de376bef9d8fa2fc1eca00e"
+    "md5": "236ae0c3c7d4f60d501b64fe24f4fd55",
+    "sha256": "9d3f27be215d71efcfb50aa75041b171386d659fe4fcffa1a4be980eb3bccba0"
   },
   {
     "title": "Monochrome City [tranquility]",
@@ -926,8 +926,8 @@
     "note": 3702,
     "total": 740,
     "judge": 3,
-    "md5": "fdb3d5f1fb10c20677fa41a406f405a6",
-    "sha256": "bc76d4fc6d5f2d903697962dca0c2b78be352f045545fcad73ded0b3e730b97b"
+    "md5": "7d4e2c33e0c19177cc0a757682b48ed7",
+    "sha256": "41925ea8a06e2451438a8a25404ef7f3765c53872649de7f7413ccf5e40d3f03"
   },
   {
     "title": "Snowy [mulyaong]",
@@ -941,8 +941,8 @@
     "note": 2000,
     "total": 400,
     "judge": 3,
-    "md5": "b45250148d40f4a82401295dfb38bfaa",
-    "sha256": "f8a695b2badc0391be5cef70aed51858582e45d7e0e240c943427d1e3024ee2d"
+    "md5": "79181147f406168208945bf3619e54bb",
+    "sha256": "17a52fa7fc52bd7fed2fc76268da0ca690e8d2b3f31f274a9fcb53fc61201ec2"
   },
   {
     "title": "ごまかし [dear you who forgot how to cry]",
@@ -956,8 +956,8 @@
     "note": 7548,
     "total": 1509,
     "judge": 3,
-    "md5": "43fceed769a5989832a46d45e420078b",
-    "sha256": "39d13f53f89324b9b178ca4529887a267501978feeaf52d71e9019c5a992fc71"
+    "md5": "8923d719569b20b26b62a355d2ae259a",
+    "sha256": "edc8dfd3eb0afa6a736cba1b44da0b52dec9fb2243da3c279692e37020463fe2"
   },
   {
     "title": "Paranoia [Dysphoric Daydream 0.92x]",
@@ -971,8 +971,8 @@
     "note": 7922,
     "total": 1584,
     "judge": 3,
-    "md5": "b23a37547e35bbe08995947996c8f8e2",
-    "sha256": "40524eeb6b9b9150fbe712585313c786fd144b1c6705dc6932dde8cc6cb1603c"
+    "md5": "691349951191f57c72821397e63a9135",
+    "sha256": "f177645f971296e37ef5056870ae51472223693fdab0eb1aa6961acd9aac1225"
   },
   {
     "title": "Paranoia [Dysphoric Daydream]",
@@ -986,53 +986,53 @@
     "note": 7922,
     "total": 1584,
     "judge": 3,
-    "md5": "db502a44ff7842ffa909f4863e8a6bf5",
-    "sha256": "ac24b638dce471c114b64bc30e352c2b548e718c25913cadb1209ed6ff9e0ec3"
+    "md5": "274bfe3ab3388ed5e58cfca8c3adc072",
+    "sha256": "70f994b26bf368b2bc1aefd50c5ea832a6bf300855bbc52a5fe758b2d474cefd"
   },
   {
     "title": "Harae memory rate pack [Co shu Nie - Asphyxia 1.1x (LostCool)]",
-    "level": "st+",
+    "level": "LN",
     "eval": 0,
     "artist": "Various Artists/obj:mlaassss",
     "url": "https://osu.ppy.sh/beatmapsets/1937942#mania/4006081",
     "url_diff": "",
     "name_diff": "",
-    "comment": "st+",
+    "comment": "LN",
     "note": 4172,
     "total": 834,
     "judge": 3,
-    "md5": "52666a494db10cf5b3d411ecef7882d6",
-    "sha256": "0c6044a2e4e9997e0382ef30bbfbc7dfca99b795fe3a35d331675f4cb7d307af"
+    "md5": "40ed94cd1c222130a11ed7f454bf2442",
+    "sha256": "fe309a8706987dd9533f68ac4a1a773e0fa2dfa49d57ffa591736e29b4b7f196"
   },
   {
     "title": "Harae memory rate pack [POLKADOT STINGRAY - Keshin 1.2x (ruka)]",
-    "level": "st+",
+    "level": "LN",
     "eval": 0,
     "artist": "Various Artists/obj:mlaassss",
     "url": "https://osu.ppy.sh/beatmapsets/1937942#mania/4006083",
     "url_diff": "",
     "name_diff": "",
-    "comment": "st+",
+    "comment": "LN",
     "note": 7000,
     "total": 1400,
     "judge": 3,
-    "md5": "da3a75601294d4a6d8365be502052096",
-    "sha256": "29bb43eb2b25f2f4abb86029a5427fc94b9d1f45749d80d26435aea52146de1f"
+    "md5": "872cf1d45399da474b8a2741f39f1114",
+    "sha256": "75b1ba0d357bc77e0decc4b930d05d6f06b94723b85057587654d7ed2fd6f761"
   },
   {
     "title": "Harae memory rate pack [t+pazolite with siromaru - Chambarising 1.3x (Destiny19)]",
-    "level": "st12",
+    "level": "LN",
     "eval": 0,
     "artist": "Various Artists/obj:mlaassss",
     "url": "https://osu.ppy.sh/beatmapsets/1937942#mania/4006084",
     "url_diff": "",
     "name_diff": "",
-    "comment": "st12.4",
+    "comment": "LN",
     "note": 4526,
     "total": 905,
     "judge": 3,
-    "md5": "846afacb533e3e7d4ff1196e2260e8c2",
-    "sha256": "6cf5426eb6284bafc04e50075acfb51890b821cd381eefab13ae3cc86078c675"
+    "md5": "2dc9865ec857cab70c1f8b08f0b962bd",
+    "sha256": "fe32ea07e959d4d75fb813f107aa08a3efdd279fd91945a0f6aefa835382de1a"
   },
   {
     "title": "Harae's Limit Breaker Pack 1 [HAG - Colorful Gamma]",
@@ -1046,8 +1046,8 @@
     "note": 2946,
     "total": 589,
     "judge": 3,
-    "md5": "b235f286bfcf1f108032ca0fb7d4617d",
-    "sha256": "35df6afe6022aad199484b7660a0c2ecd5785862e4d2215dbab51d5a9c3b3f74"
+    "md5": "890a6509d0f259547dfadaf04718aefb",
+    "sha256": "4d2bea80fb49d024801577f70050a87c5b9bba9dc64c2e66ec60c4767fc70609"
   },
   {
     "title": "Harae's Limit Breaker Pack 1 [Kaneko Chiharu - Umttai Reido]",
@@ -1061,8 +1061,8 @@
     "note": 3891,
     "total": 778,
     "judge": 3,
-    "md5": "5a52f08ec98cfadb67c586314ccb535b",
-    "sha256": "018c9bc1ffb53619834c02c0eac54c97b291b3258f430f78e70177dea884d7d3"
+    "md5": "d5740fafca54ef2074d1e9bbaef386df",
+    "sha256": "4dcb91573a38136b7d8be8094feeeacf731c27be06b0754ff8f26caa47ad67cd"
   },
   {
     "title": "Harae's Limit Breaker Pack 1 [Supercell - Melt Gamma]",
@@ -1076,8 +1076,8 @@
     "note": 3372,
     "total": 674,
     "judge": 3,
-    "md5": "b8a5b9f0445804db8c7bd727c146fe23",
-    "sha256": "fd0e96eeff4a46836dc319d927e653f9d5e17605543649dc4029cc93d42012e1"
+    "md5": "755e254547c3a854b2509f30017fcc51",
+    "sha256": "9438bfd9c04c7cd9d56699ae261ea0b7fbf2e73b91d84c377dcabf966dc21acb"
   },
   {
     "title": "Harae's Limit Breaker Pack 1 [Thaehan - Umki-Umki]",
@@ -1091,8 +1091,8 @@
     "note": 3518,
     "total": 703,
     "judge": 3,
-    "md5": "9e37341332053726e1051ae8a12e7ceb",
-    "sha256": "b4441d93fb83be5df9620886f67a4294e8d4a51f68bbe4b5edc868565d3e0753"
+    "md5": "cc92cdc4e3d61acaf95bc6197a396d75",
+    "sha256": "90632ad7b70e00f69f20514ee97af1ff5f43b17c11b5d8690206fb5f496d430e"
   },
   {
     "title": "Harae's Limit Breaker Pack 1 [Tia - The Glory Days Gamma]",
@@ -1106,8 +1106,8 @@
     "note": 4421,
     "total": 884,
     "judge": 3,
-    "md5": "23d516ac43fc195da9dccb8c75740a83",
-    "sha256": "97e0b3c478c666e72c1222d8d1c66792881061629b7d19ca3afdc11d182438f1"
+    "md5": "4e9bab6a332e41112a5211a4e36378ee",
+    "sha256": "50b3ce4b9671726775db32680571a3502642a73d54ac60f2d50832603980c031"
   },
   {
     "title": "Harae's Limit Breaker Pack 1 [TUYU - Umko ni Torawarete Iru]",
@@ -1121,8 +1121,8 @@
     "note": 5744,
     "total": 1148,
     "judge": 3,
-    "md5": "cb057b51dae72c8862257bc25bd21608",
-    "sha256": "f39f6f01dc361b8fa3b92e7c389a92a7347428504444e6e3af0b3188b6014a4e"
+    "md5": "b21291473be77684db13c5586b3652e3",
+    "sha256": "dbfa80f217cf47ff7df95a8118c68ad0f0ac50dd0bdb2153db9a566d1d0c944c"
   },
   {
     "title": "Harae's Selfmade BMS Convert Pack 1 [Blooming Jump! [Blueming] st9]",
@@ -1136,8 +1136,8 @@
     "note": 4154,
     "total": 830,
     "judge": 3,
-    "md5": "1621ac0053f7d898aac68462d92c7528",
-    "sha256": "4f3dc3978e47db8be42d09d1dcd8fba2caa81d1959aa0dc3be1ff76e6bf233d0"
+    "md5": "0252f091baebfe0916b0414070a6fac7",
+    "sha256": "fc74fff9bdccfa3e91b65687773394fad0e31802509a7d2b8ecfa76ff7a91ccc"
   },
   {
     "title": "Harae's Selfmade BMS Convert Pack 1 [fragmentation [BURST] st9]",
@@ -1151,8 +1151,8 @@
     "note": 2508,
     "total": 501,
     "judge": 3,
-    "md5": "7a2ca9659e5fe62f0f18c74de48ffebb",
-    "sha256": "323a5495cbd88b78171b75ced282481e9714085756a2291a83c6c68f457247ad"
+    "md5": "e0cac718d049d0937a3a7dd8de6c871a",
+    "sha256": "fb91fa32ccf78c877485700e6cca64320366c4df4fea82ed52cec716d9735f4d"
   },
   {
     "title": "Harae's Selfmade BMS Convert Pack 1 [Groovin Groovin!! (o w o;;) st10]",
@@ -1166,8 +1166,8 @@
     "note": 3287,
     "total": 657,
     "judge": 3,
-    "md5": "36e78633cd42868ca32ae33b5b9ce742",
-    "sha256": "b3e5d855e004f056e39f5f3afcdf9975e457abcd8bc072ce05e0b6251930f018"
+    "md5": "410e8666c9dff624567261237a31483b",
+    "sha256": "970eac0f892bcf99f2e2091590429654d50dde205a70f6754763285c298213d0"
   },
   {
     "title": "Harae's Selfmade BMS Convert Pack 1 [KiraKira..Explorer [Gorilla!] st7]",
@@ -1181,8 +1181,8 @@
     "note": 2804,
     "total": 560,
     "judge": 3,
-    "md5": "0d92044755b14fade019b5d1bb0aec88",
-    "sha256": "4c752ece4c6063959d95f59efa62e93cf397cda28cc9bf424273b4ada19ff808"
+    "md5": "c17bfefe5e0398438b3d6f61f87c743f",
+    "sha256": "1fb78293af1bb067f05fa05881d1ffdec7a8a8e408487c288ac084e9308dc05e"
   },
   {
     "title": "Harae's Selfmade BMS Convert Pack 1 [Lul Lul Boshi -LAST LULU- st7]",
@@ -1196,8 +1196,8 @@
     "note": 2809,
     "total": 561,
     "judge": 3,
-    "md5": "59f372d1aecadcb6fb7dc174100d7650",
-    "sha256": "c81ecc6a41e06d1e210de0cd4a0eab9b9a955761daa0fff90b17d88d5b167feb"
+    "md5": "ded395827452740579f500087706bd7a",
+    "sha256": "5f4433cf950c0ab22e361118178db961885f05221f2b0f360c284f66e2eee9ce"
   },
   {
     "title": "Harae's Selfmade BMS Convert Pack 1 [Moon-gate [FATAL BREAK] st11]",
@@ -1211,8 +1211,8 @@
     "note": 3436,
     "total": 687,
     "judge": 3,
-    "md5": "97f61de406bb91e7c7cf0dda114e1c01",
-    "sha256": "0a04220c4d9ec9d62c84561f566f694e908cda49528497c3dd7ad0c10da9ad24"
+    "md5": "fcada64a49715a33568005bc1afdf544",
+    "sha256": "9a093bc8c344349e547ecdcf582b4168ecc0d34fbac363f7f9a677500b91630d"
   },
   {
     "title": "Harae's Selfmade BMS Convert Pack 1 [R.I.P. [FATAL] st7]",
@@ -1226,8 +1226,8 @@
     "note": 3118,
     "total": 623,
     "judge": 3,
-    "md5": "e716c2497cdcc390080c47bf15d9a128",
-    "sha256": "05d0bd7833b675d987f4a807ddc2820efc89d3725fcdff216ee7aecbaedb3a2f"
+    "md5": "9bf45a50278a843324cbfbf020b73661",
+    "sha256": "7e82600f858706a49129984ca488ae37fff8786873a3ad57fdab73bfa43ebc08"
   },
   {
     "title": "Harae's Selfmade BMS Convert Pack 1 [Rainy [Typhoon] st7]",
@@ -1241,8 +1241,8 @@
     "note": 2672,
     "total": 534,
     "judge": 3,
-    "md5": "7f054567bbde057b72881bbbad4deef5",
-    "sha256": "eab301f29ae0a0e723488e5aac635992d0ec4ed412c96532960cfdd0213434f7"
+    "md5": "0c24f7ecaa6e42b751b7d7fff69db905",
+    "sha256": "e59b4cf5c6963392f2f93417524b97ae2ef82bbdd52437702021fdfba55b65f2"
   },
   {
     "title": "Harae's Selfmade BMS Convert Pack 1 [Ruriko FINAL (ICY) st7]",
@@ -1256,8 +1256,8 @@
     "note": 3547,
     "total": 709,
     "judge": 3,
-    "md5": "6d50c17a7b8c6bcf7579a9a28a9e7c68",
-    "sha256": "8089cf6228a982f978c8c5053593cb0186247d4fd5e4ab85fa0807ce28166d3e"
+    "md5": "7c81dff3564e6fc101e03fa17d42ccc6",
+    "sha256": "91c9b0ccd5e04d6716ec4b83d3ad6ce99c75fa2913dbdfb2ac943cccfdccc445"
   },
   {
     "title": "Harae's Selfmade BMS Convert Pack 1 [Second Run [SP Third] st6]",
@@ -1271,8 +1271,8 @@
     "note": 2360,
     "total": 472,
     "judge": 3,
-    "md5": "57dffe4db1e577846c68d2a14ed6a56b",
-    "sha256": "abae8373dbaba8fe0019ec782ae1296b2a978973ff2835320ac782184d9a5fb6"
+    "md5": "be7cefc8e71432093667c4a005b210dd",
+    "sha256": "20cfa10bf6fe33a843fbd2b7735cafe0b64d480f9f6dbab74eead525b928a411"
   },
   {
     "title": "Harae's Selfmade BMS Convert Pack 1 [Shooting Silver Bullet [Speed Of Bullet] st10]",
@@ -1286,8 +1286,8 @@
     "note": 3090,
     "total": 618,
     "judge": 3,
-    "md5": "1f5094d28b866c3a267a1606b1ff42af",
-    "sha256": "e127dcb504140c857ad4f79be9c94f08b11e5048544db08a1c31d05ab19e1a9e"
+    "md5": "18b140c7b4cc49ad461e174a1d20e663",
+    "sha256": "d61a9c6b168583a5eb537aa4b7382192ba361c56592a60a7c8c8c8d4c27a88b1"
   },
   {
     "title": "Harae's Selfmade BMS Convert Pack 1 [Shooting Silver Bullet [Speed Of Light] st12]",
@@ -1301,8 +1301,8 @@
     "note": 3201,
     "total": 640,
     "judge": 3,
-    "md5": "8eab507f20acb4bbfb6ce63024d278ef",
-    "sha256": "6adc1c455aa349e643d581be54f1c26cf483295d0993d351c32be9067d57221d"
+    "md5": "9bba106e0633fff468f7f36340c93ef0",
+    "sha256": "f860bf614ac2fb86984ecbdceea438c2e1a276067d5fb93cac0c59636b6c4bcc"
   },
   {
     "title": "Hardest Wild BMS Charts 1 [Eternal Super Hyper Ultimate Doggo [Endmost Supreme Highest Universal Drumming]]",
@@ -1316,8 +1316,8 @@
     "note": 5471,
     "total": 1094,
     "judge": 3,
-    "md5": "065253d4ae08c0e475b5b5e71399b595",
-    "sha256": "ee1d9778a27ff15de4bf8aeb79dd372e1e39635b6426d1367f915646553d25fa"
+    "md5": "29f1be50724a09e972bf985f227c74c0",
+    "sha256": "f1c27d43df45298b94aaad422be2d1ba71f7dff7c7698c5e1ba23e82fa204450"
   },
   {
     "title": "Hardest Wild BMS Charts 1 [Leonids -Dust trail-]",
@@ -1331,8 +1331,8 @@
     "note": 4037,
     "total": 807,
     "judge": 3,
-    "md5": "bce07778536143a1369f0af3f19f610e",
-    "sha256": "55d3c60c7f32bdbc212ecf6739cc0f9046e770490751c01c55122923014d7af4"
+    "md5": "72d63bd4192b5801c9ad0ff8199a950f",
+    "sha256": "9ec3e251aac6526fdd3ba05fafe313f05b938ad59ab21649ff7fd4a14edbde55"
   },
   {
     "title": "Hardest Wild BMS Charts 1 [Mirage Garden -Tempest-]",
@@ -1346,8 +1346,8 @@
     "note": 3347,
     "total": 670,
     "judge": 3,
-    "md5": "1fa4102f5ab2c50df21cf0dce2a91d8d",
-    "sha256": "c4446f795796da40a988508baf2b063080ce05841226945cbda0f62dd8fbb708"
+    "md5": "f47507806387bac99ac4d0d19060e547",
+    "sha256": "58efc89e42e8f239c2a2d7d955d520add5e056bbf99bb579c785d3e78b3be6ab"
   },
   {
     "title": "Hardest Wild BMS Charts 1 [mom [SEE YOU]]",
@@ -1361,8 +1361,8 @@
     "note": 2700,
     "total": 540,
     "judge": 3,
-    "md5": "2debdf4916afbe21b396106d69e11892",
-    "sha256": "8cf24f560ff6522f26b98153bd3d0464cbbe394e124227ade5d10cf6f594e7ed"
+    "md5": "0fed9eaac299c4939b1f4fb0f517ace9",
+    "sha256": "d9d8c4a21556ae31d93f7a8047251ba19d2adee90631df67e3c2799fd4ac1444"
   },
   {
     "title": "Hardest Wild BMS Charts 1 [MooN -SP IMPOSSIBLE_M-]",
@@ -1376,8 +1376,8 @@
     "note": 2969,
     "total": 593,
     "judge": 3,
-    "md5": "54ceacf99baa2ce950de94960aed3a23",
-    "sha256": "7938fb1f2c787c140583f09f65f5fc815e4eade525d590c67eb7adc9f5964a2d"
+    "md5": "b69e48b37f776ef31a5dc2a10bc28f47",
+    "sha256": "df6d8a6a5ae18d1a2ea1c4afcc21564efa4b931b11b1c150e5be2e97d2ec0cbd"
   },
   {
     "title": "Hardest Wild BMS Charts 1 [on Principle -Philosophy-]",
@@ -1391,8 +1391,8 @@
     "note": 3329,
     "total": 665,
     "judge": 3,
-    "md5": "2d2c26407d843845b09a6346c59ea4b6",
-    "sha256": "b7ee3d0097ab20651c6810711af7ac992e4831681ca7d532ad98f82bfb3b8235"
+    "md5": "2ecc5f06af8e2fff093c24d5b3fdd2e7",
+    "sha256": "e742e66a63ffa4d53f9371c5947cb1f611b131c6994f6afdd008e1049fba2eaa"
   },
   {
     "title": "Hardest Wild BMS Charts 1 [SunnyShinyRing -Finale-]",
@@ -1406,8 +1406,8 @@
     "note": 2260,
     "total": 452,
     "judge": 3,
-    "md5": "bf61c035db27e665a07c859189a3557a",
-    "sha256": "7e3b62cb99262dab747ddb742e3ff15b9ab462e42d9d039983d1964d5fd18014"
+    "md5": "463c7d347ab38c71fee5d587038b3ee8",
+    "sha256": "da365ddb2f53f03674e7c433f6243f3516cd9a0c726d805385c3c6cf2eae895d"
   },
   {
     "title": "Hardest Wild BMS Charts 1 [U.F.O. [ Extra Delay ]]",
@@ -1421,8 +1421,8 @@
     "note": 2988,
     "total": 597,
     "judge": 3,
-    "md5": "20d365eb213f585c9befd59ee5887322",
-    "sha256": "ebeef201e09723c3d91eb75f7a247f9c79d71b00c906c65b089d858c5017ca07"
+    "md5": "900181612ec4d0d47fbf7663ad0d01fa",
+    "sha256": "02246ecf2e7dbe1af9aae9a2e2359c0316b9d08e6484ab594cb82acd90c040fe"
   },
   {
     "title": "Hardest Wild BMS Charts 1 [XIII Charlotte [Indigo]]",
@@ -1436,8 +1436,8 @@
     "note": 3525,
     "total": 705,
     "judge": 3,
-    "md5": "be92c076e62b6780bb9f7cc344d5dfe7",
-    "sha256": "cc46dc33bacc649af6f9fa809fd069bcde87c6c784ee5b7cb344995c1ed876a8"
+    "md5": "8621775730ce196c65564a341529967f",
+    "sha256": "7006dc60b9e3ff7e83c6395e9b535a308d6d4879eafe777c0c676d9c03186045"
   },
   {
     "title": "Hardest Wild BMS Charts 2 [Angel dust -Deep Abyss-]",
@@ -1451,8 +1451,8 @@
     "note": 4828,
     "total": 965,
     "judge": 3,
-    "md5": "9a791839047da90fd0becf01d41d3856",
-    "sha256": "36e34adf400dc1083db34f154b3bbd7ddacfccb7f28ed151397e9a5924c717d5"
+    "md5": "dca95b9d7706f09eeaddbe8064bb942a",
+    "sha256": "d61460474eb9637932420bb55bc74317f4d967e1ad511c839e5c3123a0b1bd65"
   },
   {
     "title": "Hardest Wild BMS Charts 2 [Auston (7yabbaai)]",
@@ -1466,8 +1466,8 @@
     "note": 4215,
     "total": 843,
     "judge": 3,
-    "md5": "fe0df6532fe65a9edc5a7d1b088f217d",
-    "sha256": "ce752d659267f44507781852ddc6e3ad34740eb2c6150a58717050ce15d2ba21"
+    "md5": "fede5d2e56de997cc7ceb7620d60c579",
+    "sha256": "db01efc98f6e1e7dad71c516a1446d6dd27bc272836981c812c7691860489218"
   },
   {
     "title": "Hardest Wild BMS Charts 2 [Hybris no Itadaki ni Sobieru no wa [SUPEREGOISM]]",
@@ -1481,8 +1481,8 @@
     "note": 4211,
     "total": 842,
     "judge": 3,
-    "md5": "2bb45f4a4bb04b643349a3fe8018008a",
-    "sha256": "d30267db67a86a12077071054de45fac155e7f2fac0de1e4ad53c746e8d6cca1"
+    "md5": "6a89ed9d254ba221cb87ffe3efbcb56a",
+    "sha256": "a5ba868029c23ecf0b7d491600f77342d09865ba783772289fbd59c414fd82ae"
   },
   {
     "title": "Hardest Wild BMS Charts 2 [Lemuria [Tarvzich]]",
@@ -1496,8 +1496,8 @@
     "note": 4373,
     "total": 874,
     "judge": 3,
-    "md5": "5e92e1c90b4be52687f18e7000682d80",
-    "sha256": "39f0a14328e13d555a27494657980eead768b5fb9373b2fe384b698088ef827c"
+    "md5": "5da210d8c6535688c8b2f7eb90b212eb",
+    "sha256": "1d114ef3642dbb2026e7b4894e224122b5b743429ec12ef68124fb77e5c0edf1"
   },
   {
     "title": "Hardest Wild BMS Charts 2 [lest]",
@@ -1511,8 +1511,8 @@
     "note": 2791,
     "total": 558,
     "judge": 3,
-    "md5": "bb0ca0e13a51749e71b23e46d3f68d2e",
-    "sha256": "cd2086824d0f891053ed6251905080a117242b11f161d29acec71e44176ff98b"
+    "md5": "4d1fef0943812c6fe906d349da3b9ff6",
+    "sha256": "f3f19e03d69541f6305f7093966dae30743f78e95c1495872826fe85db61fdaf"
   },
   {
     "title": "Hardest Wild BMS Charts 2 [Mr.Belligerent King]",
@@ -1526,8 +1526,8 @@
     "note": 6061,
     "total": 1212,
     "judge": 3,
-    "md5": "eb406b8699d88d62e988a3671440c6e1",
-    "sha256": "2eb43d7f69d6c766f31ae28f25100bb9ca55aab7940d080bf933f90895ae5604"
+    "md5": "aeee845a3959c64e589976f4e3a18a84",
+    "sha256": "b18ad210e495f3ba44355c43f30a29fa8457a7c04a78af006769dbc7dbdaccee"
   },
   {
     "title": "Hardest Wild BMS Charts 2 [Tokoko21 (Evil7)]",
@@ -1541,8 +1541,8 @@
     "note": 4141,
     "total": 828,
     "judge": 3,
-    "md5": "25127582222e43103ad168180053f059",
-    "sha256": "817c4f0ee371dfa8163e0aadbe30e226cc7725b6769c0590548f558b6a08064f"
+    "md5": "c4c3cde176012c89cd8d4d739ac34fb2",
+    "sha256": "9ffd36ec6e7d2dd50417b0dfd54d7e2ee8a2def6664d75ff5bcf97615e9af042"
   },
   {
     "title": "Hardest Wild BMS Charts 3 [Absolute Future -Finale-]",
@@ -1556,8 +1556,8 @@
     "note": 3612,
     "total": 722,
     "judge": 3,
-    "md5": "285f6308328a286d8577808eaefa8d96",
-    "sha256": "ba51cf1af6927c5c6adc6257e0632f74645bb1090504cacb00a2d6b1967be1ef"
+    "md5": "66264c52a534694f3858a97190e39f4e",
+    "sha256": "6573422d5ec3c1cd9a1b4f530a3448a6c6a07cbaef2aa5f3baceb6ea85eddf85"
   },
   {
     "title": "Hardest Wild BMS Charts 3 [Alastor]",
@@ -1571,8 +1571,8 @@
     "note": 6795,
     "total": 1359,
     "judge": 3,
-    "md5": "a8970c2435f1e55d49d6233fca2f9437",
-    "sha256": "c6202cb03927334e52f481e21f97d9e79bee86e385d45de764dee1d8f8991b6a"
+    "md5": "d11e844e11996b4bd9398eaa64fcfb86",
+    "sha256": "922f33f8c0d3894fe6e6628bf9851d28e523bd447a8a5792eb041833158b4f1e"
   },
   {
     "title": "Hardest Wild BMS Charts 3 [Angel's Salad [HYPERREALISM]]",
@@ -1586,8 +1586,8 @@
     "note": 3477,
     "total": 695,
     "judge": 3,
-    "md5": "f45057fca6848c5ed8369073c4ab9c43",
-    "sha256": "aa4fe7b312212e6d2196dd9e584c7b7f4eb7cfadc8602a20f788276a00ee6423"
+    "md5": "06b65b9b5fe700ef3c620d216991b16d",
+    "sha256": "bcf32825d993bf845846efdb806241e9a22085fccb24121230aa936748e61df5"
   },
   {
     "title": "Hardest Wild BMS Charts 3 [Aragami [Finale]]",
@@ -1601,8 +1601,8 @@
     "note": 2729,
     "total": 545,
     "judge": 3,
-    "md5": "135b36b8d94e7991022d5cbbd03e0c86",
-    "sha256": "5e55216660b03ac35d6ba28c0ed14c3307d2b9c7ca822e8563c8a3585102e671"
+    "md5": "633ae8ed342d3b987d42df369456c48e",
+    "sha256": "c1390869b3787a98125ced6c9370d111af43b1ac881592399ebf1442240d7ac3"
   },
   {
     "title": "Hardest Wild BMS Charts 3 [Firmament Castle \"Velier\" [Photon Blast]]",
@@ -1616,8 +1616,8 @@
     "note": 4348,
     "total": 869,
     "judge": 3,
-    "md5": "98be9ff54adb95dc475226bf4659a50f",
-    "sha256": "7abff35e675071f2a9e8dfd23fc17ad81f7b2a08e24c56df52c3952ae3adc934"
+    "md5": "fc7ff445bd3c75532a722706bbdce199",
+    "sha256": "35a3ee3bae2ae84837952730fcd9c2ad3e4c00762116f9a6727d1185bc02b288"
   },
   {
     "title": "Hardest Wild BMS Charts 3 [Pixel Princess [Royal Dignity]]",
@@ -1631,8 +1631,8 @@
     "note": 3626,
     "total": 725,
     "judge": 3,
-    "md5": "0506092617a164f0cc0715fa0740e067",
-    "sha256": "a867e9ca0a22cda4f4544841b9ec197cfb8b72761bf046c3af340ac9a7b7d318"
+    "md5": "63a0dc831c0eaff2f9c3d633ca8baf38",
+    "sha256": "3322c03be71ce644e864581f0f39c6142e3eabccf0192092a459d36553181b17"
   },
   {
     "title": "Hardest Wild BMS Charts 3 [The Last Page -Ragnarok-]",
@@ -1646,8 +1646,8 @@
     "note": 3043,
     "total": 608,
     "judge": 3,
-    "md5": "c9ab80c2849faa72908befbeb171b5d1",
-    "sha256": "3c1bd7a60d6823c0ecc9e4f181c30c94b019fabe14cfd368778a0ff65a93fd23"
+    "md5": "2398332f39cc9f8158d6f4b18c70f80a",
+    "sha256": "e7b568ecb0a73ce789fec738ad11aab9f063979a8babad07837f5deb349022a2"
   },
   {
     "title": "Hardest Wild BMS Charts 3 [The Maid and the Pocket Watch of Blood [GOD]]",
@@ -1661,8 +1661,8 @@
     "note": 4879,
     "total": 975,
     "judge": 3,
-    "md5": "129611c9ddbceb4dc91a1b576db0feef",
-    "sha256": "d75559793b73a5bf96d38455bd66dba5c5b1f3da06889c676f9cb1beced49859"
+    "md5": "b216d95118f81bbcdcc35070e75b5664",
+    "sha256": "afa047384e1105fb909c1df55dc3402a160e982114a979559680b01e11a82bf2"
   },
   {
     "title": "Hardest Wild BMS Charts 4 [Alien Artifact [Finale]]",
@@ -1676,8 +1676,8 @@
     "note": 3404,
     "total": 680,
     "judge": 3,
-    "md5": "5870ee2df852139cc8169321926162d9",
-    "sha256": "62c5cd00d4077c7491925610a53f06e75ab0ec333badd34cc544bbce22dd5563"
+    "md5": "d33295a27e74b4a49a62c4c4d715e916",
+    "sha256": "e670c03b22a1db6c3a1d0bb0ad9c54366fbd14f544f44afefaccdbf277cd93d9"
   },
   {
     "title": "Hardest Wild BMS Charts 4 [Ama no Murakumo no Tsurugi [INFINITY]]",
@@ -1691,8 +1691,8 @@
     "note": 3255,
     "total": 651,
     "judge": 3,
-    "md5": "5e3d6543d55687904a2533a8f1de9e2a",
-    "sha256": "c2e5b201b9ec0adecc709e471198f51e281f50588f727aed0a687253239217ea"
+    "md5": "5c4dd83da762f908a604a9997d2dbf7a",
+    "sha256": "3a222d6dbc9d3d67f80ae1a9b2f4fa98cc948559e42fe31102584efdb9569ae5"
   },
   {
     "title": "Hardest Wild BMS Charts 4 [Ichirin]",
@@ -1706,8 +1706,8 @@
     "note": 2368,
     "total": 473,
     "judge": 3,
-    "md5": "018e73e02ca5d05d37859b0a9e9c8bd1",
-    "sha256": "e252f8c7f18ccf9c4da28b2fec15b8531947a878deda3fe33667c87f6bb7924f"
+    "md5": "b87ce722af48d516c726278fb53cefd3",
+    "sha256": "689c4bbe91d9b5e89566caf77bd8f2b28f2f66d8f0490f5f78c61f1ae8a72719"
   },
   {
     "title": "Hardest Wild BMS Charts 4 [Journey to the InfBIT World [Another Coeli]]",
@@ -1721,8 +1721,8 @@
     "note": 3945,
     "total": 789,
     "judge": 3,
-    "md5": "a501cf5471ac4cec4e4e300ffd71608e",
-    "sha256": "36479d0c108d210a238d69ed24af08226e022b5b0b7a3c26dcdd19afcd8fffaf"
+    "md5": "f228100233a8dfc130a75d9643ca751e",
+    "sha256": "6b076c03ec0ab4d5d66b19d5aadafaa96677b5d26644292cb36b32387865ac54"
   },
   {
     "title": "Hardest Wild BMS Charts 4 [MESMERA [KOOKY]]",
@@ -1736,8 +1736,8 @@
     "note": 4599,
     "total": 919,
     "judge": 3,
-    "md5": "6f35d401f7188f3e298f555e335e2cc3",
-    "sha256": "2c68d6a83aade83e05ebd212c2d5d6dde953dabbd33830ef6cadaa2431175fec"
+    "md5": "262a9c84dd3e1ccbb4bf53f80dafdd09",
+    "sha256": "803d89b52c4756b04458f66b27d6128c3a87e50bc2f9178f4ff4fe10880211b4"
   },
   {
     "title": "Hardest Wild BMS Charts 4 [MESMERA [SP ANOTHER]]",
@@ -1751,8 +1751,8 @@
     "note": 3425,
     "total": 685,
     "judge": 3,
-    "md5": "2434cd4fb8f7f10fc578516160d75b35",
-    "sha256": "cc9341624e6afa075200cd5cf7cb1dc9ce1ead0dfc9a4445bc016e0f705d34fc"
+    "md5": "b3d38ace4bafe0bf0bac30a3522dccdf",
+    "sha256": "2ed9815eac226e0ec229464e26527a54cc6f067120f496102c548d60625619bd"
   },
   {
     "title": "Hardest Wild BMS Charts 4 [MESMERA [SP INSANE]]",
@@ -1766,8 +1766,8 @@
     "note": 3987,
     "total": 797,
     "judge": 3,
-    "md5": "e333d52a36c927ed47da9f2ff6a75a8c",
-    "sha256": "789b0f8c04451144de3d122a5f15f702695650059402eefb508591cad2d05edd"
+    "md5": "677bb3da6643c3304b5b05ee9f488ccb",
+    "sha256": "4ce9d7214d0d997c47ff517ccb799df21c719dc3f0ea0b1db97ecf982d0cbd02"
   },
   {
     "title": "Hardest Wild BMS Charts 4 [Nhelv [Despair]]",
@@ -1781,8 +1781,8 @@
     "note": 3746,
     "total": 749,
     "judge": 3,
-    "md5": "b5ae68594e238391db14a9342f20a3c8",
-    "sha256": "f9bcfcad05fc2fbb2c9f12e6dee7442f2680b4133f52c2b46cea1ab1432c7e35"
+    "md5": "d64dfbaa907c1842aa7fe94396bd9a38",
+    "sha256": "55238285cf7d7ecb97136e6f41e2a7bf6a9c32f839018f2e70234122951ec310"
   },
   {
     "title": "Hardest Wild BMS Charts 4 [orion ring -capricorn-]",
@@ -1796,8 +1796,8 @@
     "note": 3727,
     "total": 745,
     "judge": 3,
-    "md5": "c69c4fe8b3a66c98f98fb5bc5e7fa765",
-    "sha256": "5eff1ec8bc7e3cac940b1a7d907a0612cb41427deccc67c80099ea5c8b21bc8e"
+    "md5": "55eda96d10196d5dfa92194c29594214",
+    "sha256": "2b0ee8b2fad82f9a44104afe18cdb0729b11c3e1fa7a5fef6a5ac0139b5258f9"
   },
   {
     "title": "Hardest Wild BMS Charts 5 [Aeventyr [///]]",
@@ -1811,8 +1811,8 @@
     "note": 4053,
     "total": 810,
     "judge": 3,
-    "md5": "b78634078edda20d398bb7094cd52476",
-    "sha256": "901cea3b6dd3a744cd85b17594f74e98cafa1c3935a591b24891a3016663618c"
+    "md5": "9c940a1ed20887a1a2d22f659612908b",
+    "sha256": "ab3744b6f1407bdeb77259f47e76f490762116fa80ccb5c27c05db6a37bc7291"
   },
   {
     "title": "Hardest Wild BMS Charts 5 [ALICE IN PICOPICO NIGHT (Key Master)]",
@@ -1826,8 +1826,8 @@
     "note": 3500,
     "total": 700,
     "judge": 3,
-    "md5": "40049ca3319edd7c76310b816635befe",
-    "sha256": "933d41f3a925846b92e0fce17c5e541061c527bb9ee07c567a8114b6e2680559"
+    "md5": "22743f7433c661edfa5a91f79f877af0",
+    "sha256": "f9fdc091305db0a77c388f50264a8964b2226513a4ed950e7598c4085d4ce5d8"
   },
   {
     "title": "Hardest Wild BMS Charts 5 [anata [m]]",
@@ -1841,8 +1841,8 @@
     "note": 3958,
     "total": 791,
     "judge": 3,
-    "md5": "5283eb72145635f7e3aa30a5199e64a1",
-    "sha256": "a5474e4c4e87b2f2c54c7ac5c288d143c515d9971acafe663a4f031a35361b9a"
+    "md5": "18dbf339cd1097a593f1064150e92fcb",
+    "sha256": "2518a3cd30cbc1b2c3982ab989dff9a9b3b6c1fde375e56d13665e187351a51f"
   },
   {
     "title": "Hardest Wild BMS Charts 5 [CODE-F -soar to the Frontier- [Limited]]",
@@ -1856,8 +1856,8 @@
     "note": 2776,
     "total": 555,
     "judge": 3,
-    "md5": "898425420455db34e10fbbd3c9dea3ec",
-    "sha256": "15beddcad44d17a14e2d103fbca68eeb001e25ab4f0f1788e04b48b015c7bf82"
+    "md5": "07f8a45779878c5b5be9f5bce6ce1701",
+    "sha256": "2fe7ac3c24e5fe702eff9e606979ccd5df86b4a7d792504ed356b86bc2f721ae"
   },
   {
     "title": "Hardest Wild BMS Charts 5 [EXILE [m]]",
@@ -1871,8 +1871,8 @@
     "note": 4396,
     "total": 879,
     "judge": 3,
-    "md5": "d1bc2c70965a33cf3673182043fbd0b7",
-    "sha256": "c74d1301d7e97ce75a74c8fa6c106394792f1819627ed248c4e5e28778a8b1f2"
+    "md5": "2578af96a16c33eeff8360a5ef3d9f10",
+    "sha256": "e08359175a5c160cda83530471be0af104cd22ba3ff8f3c8225f8e06538ee682"
   },
   {
     "title": "Hardest Wild BMS Charts 5 [happy puppy [48bitAttack]]",
@@ -1886,8 +1886,8 @@
     "note": 1201,
     "total": 240,
     "judge": 3,
-    "md5": "449e0e85c5e1366e7be48aa842b36a16",
-    "sha256": "e3ebe9e53b3d87808a16ab68ac52d68577b9b1dcf60f9b3b736d6bd3f2cc7871"
+    "md5": "922e010837d9194640227244cba68029",
+    "sha256": "f9de4b9746270ef07e0be2b7537d69dec71c8055be7f2e8995720569f7c90115"
   },
   {
     "title": "Hardest Wild BMS Charts 5 [PEACE BREAKER [m]]",
@@ -1901,8 +1901,8 @@
     "note": 4085,
     "total": 817,
     "judge": 3,
-    "md5": "9dcc9eb6c433493346752d07e5b15e06",
-    "sha256": "933cb519bc0acddfbc51bdb201f0d7585676cb545b88dafdc89a85ff700fcca2"
+    "md5": "f05df448067ac069bac2fe98a4cd2f9b",
+    "sha256": "c459b0a7aa005ef3edf89e2fe104efeeb74e95e9151e1f7385bef6526292f549"
   },
   {
     "title": "Hardest Wild BMS Charts 5 [Synthesized Fortress (VIXEN)]",
@@ -1916,8 +1916,8 @@
     "note": 3985,
     "total": 797,
     "judge": 3,
-    "md5": "3ac4346a2600db5815f7ba2a1e6aff8b",
-    "sha256": "f9eecfb7b15080b0c756bd4e2409ef1d4682ea7ca960aadc9573c6888a718c1b"
+    "md5": "fd650cc2ece763f1810332f869edaaba",
+    "sha256": "b2cd7d6bb9e6fa165928e29b0dbc14a07969348444140e36a7fcfe99f439c301"
   },
   {
     "title": "Hardest Wild BMS Charts 6 [ATHAZA [7Key/Phantasm]]",
@@ -1931,8 +1931,8 @@
     "note": 5096,
     "total": 1019,
     "judge": 3,
-    "md5": "ef8662e63511971e9aeadf80d943764a",
-    "sha256": "205c576e4ea08b1dc17574b233427277a5d9e1ac0daa0f1f3d3b2633955da819"
+    "md5": "ef8023f04923afe885c2359f191ac8d3",
+    "sha256": "4716c2d1f5dcf02ff4f6094fcba9b19c286bba4ed17869e1eb399bb486c80c1f"
   },
   {
     "title": "Hardest Wild BMS Charts 6 [BIRKIE [CHEERFUL]]",
@@ -1946,8 +1946,8 @@
     "note": 2563,
     "total": 512,
     "judge": 3,
-    "md5": "a046124e0b338212fe8244eef7eae345",
-    "sha256": "3ab930684fb16143ce00cc7dcd3212f8b6068d96042554d15d6d7192e012b76e"
+    "md5": "fdf5d49a66816f49fca17a0e0bb9bb36",
+    "sha256": "5bf4c2f2c91005507bc46cdba2d08301cb6ee3ce5005cc06be13e877406726d9"
   },
   {
     "title": "Hardest Wild BMS Charts 6 [BIRKIE [ENERGETIC]]",
@@ -1961,8 +1961,8 @@
     "note": 3218,
     "total": 643,
     "judge": 3,
-    "md5": "e13ce3d140b794931e50bb5aa146c7cd",
-    "sha256": "5860c42eee21a73e3f08c36eeb1a14f450cb4e8d08301a1e19bac0b092fec7ce"
+    "md5": "b244db6c81c03a0557486efe6d1ee2fc",
+    "sha256": "f0ab0a9273af8cfaf3b70f86c2d99f5d6646b8d2a62669db30016f1f054e6e3a"
   },
   {
     "title": "Hardest Wild BMS Charts 6 [gradation [m]]",
@@ -1976,8 +1976,8 @@
     "note": 3819,
     "total": 763,
     "judge": 3,
-    "md5": "f419119b81a402f745eb596b8825d13b",
-    "sha256": "9696bf8a1ba3ee12f1628ba72dcf5dafeb55105371b3238fbe4b51d7528d60be"
+    "md5": "a734adf3a10b5463849ff595f912f9c1",
+    "sha256": "ba3694160c91825b799f3b296915256e494e9e052f93a1276dc3fcd9d9ae7610"
   },
   {
     "title": "Hardest Wild BMS Charts 6 [Rengoku -Purgatorium- [crazy-]]",
@@ -1991,8 +1991,8 @@
     "note": 4122,
     "total": 824,
     "judge": 3,
-    "md5": "c08ea7663d106e5f6dbae2bf43e7d0af",
-    "sha256": "837467d063592c8e9c9c9be1fac4a74d61e7ec25a1ac764cb73d01bab0471fda"
+    "md5": "5357866678111a3542bd1e2b37f0008c",
+    "sha256": "3b872bf588678166df8c2b30d5c641a1ee93e92fe1200c6a477a1750303e9427"
   },
   {
     "title": "Hardest Wild BMS Charts 6 [stairway to the universe [stairway]]",
@@ -2006,8 +2006,8 @@
     "note": 3728,
     "total": 745,
     "judge": 3,
-    "md5": "b9a248b892b96755780ac238ca5d3016",
-    "sha256": "8c0e4be7f8f6d52e51fe72ada54be7107fde1c64d5d3c6fa91afe0177ed7eeba"
+    "md5": "edb2ee00585790de91c8f47ffc918968",
+    "sha256": "460f329780c741b201a47929e803911e46cb46f6998706d96fb9525785cf7afc"
   },
   {
     "title": "Hardest Wild BMS Charts 6 [ting ting [m]]",
@@ -2021,8 +2021,8 @@
     "note": 3384,
     "total": 676,
     "judge": 3,
-    "md5": "0aa818e96e461298446590e337b93c30",
-    "sha256": "ba455ed8b00cdfc84dbeef2fcfa09e168cf61820740bc8205495141bcb4cceb6"
+    "md5": "1a6a061513bb2f2f04910cc5e0e1bcee",
+    "sha256": "da6b73c20524702274d6ef3e273414c72027b9e7a989699affac84fc91a4a420"
   },
   {
     "title": "Hardest Wild BMS Charts 6 [Unleashed World [FATALISMO]]",
@@ -2036,8 +2036,8 @@
     "note": 3941,
     "total": 788,
     "judge": 3,
-    "md5": "edfd32d0cdd966b5e051909214180abd",
-    "sha256": "1641f24e0514d5a2d18aac41b21733c1fe5011c047f5d79378869453231977b2"
+    "md5": "e720bc6a9aa2ead19968c5720602b567",
+    "sha256": "8faf24cf5479b80a909d307bf4a555ee29776a9ae1720ed7679f701c9e1dd9f8"
   },
   {
     "title": "Hardest Wild BMS Charts 6 [Verlesq [Other]]",
@@ -2051,8 +2051,8 @@
     "note": 4172,
     "total": 834,
     "judge": 3,
-    "md5": "9483dca9b573252bf8a87f9402e1dbd6",
-    "sha256": "9dff75e80d010e1add9b4e85efac8ec7cf3da4ae59bd61309be34843c534b3a4"
+    "md5": "769aedd91e4f021bddeef74883d2b1a6",
+    "sha256": "022b1910323b4d79bbdb23da3df17bfe6807f32b51dd7e27e88e776b9a18bad5"
   },
   {
     "title": "Hardest Wild BMS Charts 6 [Xecus [Delay Master]]",
@@ -2066,128 +2066,128 @@
     "note": 2965,
     "total": 593,
     "judge": 3,
-    "md5": "302f5040441ffc1ee409a7abc427467d",
-    "sha256": "0afd5787c359fc3121304655b264ff2e4f0e79f0ca8fb668f09e22973311dc69"
+    "md5": "6c24400dc38264c72dff77bb2171e2d1",
+    "sha256": "b9e5ee7de1a951221a74d6f1d4aa59a579f8e1fbec582ef460d7ca0ad9a9acd4"
   },
   {
     "title": "LN Rate Pack Lv.1(1) [HAG - Colorful 1.07x (Destiny19)]",
-    "level": "st+",
+    "level": "LN",
     "eval": 0,
     "artist": "Various Artists/obj:mlaassss",
     "url": "https://osu.ppy.sh/beatmapsets/1954644#mania/4048214",
     "url_diff": "",
     "name_diff": "",
-    "comment": "st+",
+    "comment": "LN",
     "note": 5746,
     "total": 1149,
     "judge": 3,
-    "md5": "5bf1e03ac949a129ecc139c01ad4fa39",
-    "sha256": "7390516ec04a8e256ef00486e5568a12eec0dfebfd0d48c3149ea1d646149da0"
+    "md5": "a87f243077268c8be1270e24aec2a722",
+    "sha256": "a9b4071acc6082e0f6f4e37ea381a2ff0fd1743e97ccac3f66db0261bda0e9fe"
   },
   {
     "title": "LN Rate Pack Lv.1(1) [Hagu - Fairytale 1.1x (Pengdoll)]",
-    "level": "st12",
+    "level": "LN",
     "eval": 0,
     "artist": "Various Artists/obj:mlaassss",
     "url": "https://osu.ppy.sh/beatmapsets/1954644#mania/4048215",
     "url_diff": "",
     "name_diff": "",
-    "comment": "st11.9",
+    "comment": "LN",
     "note": 8537,
     "total": 1707,
     "judge": 3,
-    "md5": "f1916667b3d1213dba4a7c35ef67647d",
-    "sha256": "9d83efb8a91fce0c94c1ed21b067131ec62d7e461d43a243146fdd9e7551c6a9"
+    "md5": "db51a02cd343a2e571e03aed58a48e88",
+    "sha256": "cf89fed565dbf5ae11cc51ddd13f30770962e33e4b13405f297ade946c9977e1"
   },
   {
     "title": "LN Rate Pack Lv.1(1) [Hinatabi Bitter Sweets - Catharsis no Tsuki 1.08x (Pengdoll)]",
-    "level": "st12",
+    "level": "LN",
     "eval": 0,
     "artist": "Various Artists/obj:mlaassss",
     "url": "https://osu.ppy.sh/beatmapsets/1954644#mania/4048216",
     "url_diff": "",
     "name_diff": "",
-    "comment": "st12.4",
+    "comment": "LN",
     "note": 6765,
     "total": 1353,
     "judge": 3,
-    "md5": "dc44fbc8aab37ff508c99e5774b3622b",
-    "sha256": "aa127c48b2507b29d6094a262c4e688bce488e15d7b0aa0e3edb58270927bc8d"
+    "md5": "a74f6702c68621e4484cb162164e75ad",
+    "sha256": "0cd9dcc819273b4c71b334d30a55573ab31ac7ceec526866550372dce79b4be4"
   },
   {
     "title": "LN Rate Pack Lv.1(1) [Murasaki Hotaru - Re:TrymenT 1.1x (Lv.100)]",
-    "level": "st12",
+    "level": "LN",
     "eval": 0,
     "artist": "Various Artists/obj:mlaassss",
     "url": "https://osu.ppy.sh/beatmapsets/1954644#mania/4048217",
     "url_diff": "",
     "name_diff": "",
-    "comment": "st12.5",
+    "comment": "LN",
     "note": 7496,
     "total": 1499,
     "judge": 3,
-    "md5": "6d80ee94c7ea7a478e7ec81489e3dbab",
-    "sha256": "24fa4e008783db84ed5f4ff028e840f5546466daa91e381ee6c3fbacf5e01157"
+    "md5": "f2357a2ba26e21c5374cf98742904396",
+    "sha256": "7fd92c4e70079d7dbba2d869beb19212b0daae9f12ceab394e443363fbe3ae0c"
   },
   {
     "title": "LN Rate Pack Lv.1(1) [Reol - Asymmetry 1.06x (Lv.127)]",
-    "level": "st12",
+    "level": "LN",
     "eval": 0,
     "artist": "Various Artists/obj:mlaassss",
     "url": "https://osu.ppy.sh/beatmapsets/1954644#mania/4048218",
     "url_diff": "",
     "name_diff": "",
-    "comment": "st11.5",
+    "comment": "LN",
     "note": 8155,
     "total": 2072,
     "judge": 3,
-    "md5": "a23fe5ad51e12812529394033d77c040",
-    "sha256": "a83bc13757e73e830337429a5914c6de2b33f57fce1edde4ded85a4bbfefbd00"
+    "md5": "432c19b54d382f7cee5a03ca3eaf078a",
+    "sha256": "3998e4e3fe3fdae486c9d4a5592eed9a08e675b5ff96f6d43c2fe4abe308c056"
   },
   {
     "title": "LN Rate Pack Lv.1(1) [Rohi - Kakuzetsu Thanatos 1.07x (Flexo123)]",
-    "level": "st+",
+    "level": "LN",
     "eval": 0,
     "artist": "Various Artists/obj:mlaassss",
     "url": "https://osu.ppy.sh/beatmapsets/1954644#mania/4048219",
     "url_diff": "",
     "name_diff": "",
-    "comment": "st+",
+    "comment": "LN",
     "note": 9257,
     "total": 1851,
     "judge": 3,
-    "md5": "d8107c8449379b838495d5bab9b17506",
-    "sha256": "c36c0ec60a035a12152db9eeeba67233fd3c8c933d09ca1fd3334fcf3583ce39"
+    "md5": "9fe60b518e1ff2f2cf7128049d3cb50e",
+    "sha256": "9efff269640826f76a6a15cd85fe63068e001ee562e4147032f087e1502c6a5c"
   },
   {
     "title": "LN Rate Pack Lv.1(1) [Shinra-Bansho - Pinkukurage to sotto Kiss wo shita 1.04x (aci)]",
-    "level": "st+",
+    "level": "LN",
     "eval": 0,
     "artist": "Various Artists/obj:mlaassss",
     "url": "https://osu.ppy.sh/beatmapsets/1954644#mania/4060900",
     "url_diff": "",
     "name_diff": "",
-    "comment": "st+",
+    "comment": "LN",
     "note": 10739,
     "total": 2147,
     "judge": 3,
-    "md5": "346a5cb90a89c937ef1675c86a82a719",
-    "sha256": "37b0a99d260958b99e6fa0c0d3fd7193926b1749f645936fe6d7e604a09691c7"
+    "md5": "54fb53e68f9c4d641d0ad37915ed15ba",
+    "sha256": "b065e6e88ac64272855b17d6b785a619ce383f8ce6f41d8b14513095fba8999c"
   },
   {
     "title": "LN Rate Pack Lv.1(1) [Suzuki konomi - One day sky 1.08x (yellEx)]",
-    "level": "st12",
+    "level": "LN",
     "eval": 0,
     "artist": "Various Artists/obj:mlaassss",
     "url": "https://osu.ppy.sh/beatmapsets/1954644#mania/4048221",
     "url_diff": "",
     "name_diff": "",
-    "comment": "st12.2",
+    "comment": "LN",
     "note": 9700,
     "total": 1940,
     "judge": 3,
-    "md5": "e1b473a9843734025d4c2162f1ef57c2",
-    "sha256": "af496d1fbf2755048521f9fc0beb8a98aaeb8699c795a04baacb6387a5ef7ad7"
+    "md5": "e39645fa95a7665a7191525e0e3b43d5",
+    "sha256": "cee6529b46801697aec39307179933ebfb7f2c28b735427268437478ce6827cf"
   },
   {
     "title": "Nice Rice for the Long-Time Journey 1 [DECO*27 - Salamander feat. Hatsune Miku]",
@@ -2201,8 +2201,8 @@
     "note": 4544,
     "total": 908,
     "judge": 3,
-    "md5": "3915285a0be3815219a8229842c6e1dc",
-    "sha256": "31c35dcd2202c118ac239fd1ca048f1b7881653d285977dcfa1137d7637af866"
+    "md5": "177de471f359f8372cee04063fcdaaf5",
+    "sha256": "4b2feabd8780b554bdbde98b8bd77ab44cf9ed4979a8b76e855795ed29f05d37"
   },
   {
     "title": "Nice Rice for the Long-Time Journey 1 [Mutsuhiko Izumi - Snow Goose]",
@@ -2216,8 +2216,8 @@
     "note": 3268,
     "total": 653,
     "judge": 3,
-    "md5": "a941719e4d184ec0c7f4b2a4a16087d4",
-    "sha256": "fd77b5ef97d13823f63b99ca64e61f8b2d8496f776784b8ae490666b89234d4b"
+    "md5": "63cd0cb8dece96edd422892cd6929909",
+    "sha256": "6b64835d0221202f8b6177f6c0439074370f3ee3d15f6b21a6696e5b11b84ac5"
   },
   {
     "title": "Nice Rice for the Long-Time Journey 1 [void - Sudden Romance??]",
@@ -2231,8 +2231,8 @@
     "note": 2941,
     "total": 588,
     "judge": 3,
-    "md5": "7979b35a9469cc59788f6a0ceaf153a8",
-    "sha256": "47abbc5e9fd2985261a10bc25415437cf5c1c6dfed8e1e62a5c4309724d85dcb"
+    "md5": "54a2170160db3bad1998111e1d97c67f",
+    "sha256": "1c44c529e30e3668304f728ea3f2af852179449eb2077190d6241b7710128487"
   },
   {
     "title": "Aquarium [aquayaong]",
@@ -2246,8 +2246,8 @@
     "note": 5273,
     "total": 1054,
     "judge": 3,
-    "md5": "0214c6febb1a3f56d9b099884b32a6d9",
-    "sha256": "8c7488b28e743d443f66cf8db356ed1faf24ba05297d0706766132d945463014"
+    "md5": "33bbbb57594c2c3465b9340804f8a3fb",
+    "sha256": "199fdfec708f53f613bce568f8a2e649ee664f4716616c3fbbdef53daf1fe87b"
   },
   {
     "title": "Aquarium [stelrium]",
@@ -2261,8 +2261,8 @@
     "note": 4501,
     "total": 900,
     "judge": 3,
-    "md5": "8c642057f199a62fc406f964c71663a9",
-    "sha256": "e5198f066b58becc50ddfdfd421fc9e385ef4f3e9b20d768755d2ee9cf83bf7f"
+    "md5": "c7aed8adfd13b68181f389d8fb385062",
+    "sha256": "67277c61510e207fbf882764b3d9e36ddd87c735e7a62c061397bba5fc4c6e06"
   },
   {
     "title": "トンデモワンダーズ [shippai!]",
@@ -2276,8 +2276,8 @@
     "note": 6040,
     "total": 1227,
     "judge": 3,
-    "md5": "63bd4efcaf109dcb96f630bbbecf35f5",
-    "sha256": "91418b5b4cbc1c77b02223e2d450a67f6dacf4483ebbaf88a4bd84d009f2c10d"
+    "md5": "708c829feb0b9ec2b6e5aa66ea542e3c",
+    "sha256": "d1b64f0c38053a8717abe8b4199266c21649d637ece5dad50dfc6aa30221f28d"
   },
   {
     "title": "Eternal Subconscience [deconstructing nirvana 0.8x]",
@@ -2291,8 +2291,8 @@
     "note": 11531,
     "total": 2306,
     "judge": 3,
-    "md5": "27cc3b09bee5dea5759a3ed3bfd07b28",
-    "sha256": "82f10f40923b86c1fc8df970550e2b2bcbdbbde54fd956761e2ef4dbec5fa6f8"
+    "md5": "5513e7736fd5b05240c4c0450042be81",
+    "sha256": "701131478d342794f71edad6006073aa109c3306bb334b09c19c570114c1c752"
   },
   {
     "title": "Eternal Subconscience [deconstructing nirvana 0.9x]",
@@ -2306,8 +2306,8 @@
     "note": 11389,
     "total": 2306,
     "judge": 3,
-    "md5": "f8a4e7f73dde47d1072b425e2c1a2dea",
-    "sha256": "5fe1b7d63c1ca3be34dec1a74a947fd02e2df13ec9463358a55596302412621c"
+    "md5": "fb9707cffd5aa0448ca14b3a646c393b",
+    "sha256": "ec2f2ee1dde2f583c095195ef9cbf689cdb561e98e7079d40e6b68bb57e64ea2"
   },
   {
     "title": "Eternal Subconscience [deconstructing nirvana]",
@@ -2321,8 +2321,8 @@
     "note": 11531,
     "total": 2306,
     "judge": 3,
-    "md5": "34cc70f85367ebfcf04d9dbb7b49d907",
-    "sha256": "89e752e470dc054317d9c44644dc59b3213983c26da40457aa88ad2979d4562b"
+    "md5": "ebb962a9b3e9754ea1a631a9d4314f36",
+    "sha256": "87ba1cbe757c4fcdb169d997b3716d4ab1fc64a988c3616dcaed01af11dfd365"
   },
   {
     "title": "Bluenation [0.95x]",
@@ -2336,8 +2336,8 @@
     "note": 7148,
     "total": 1546,
     "judge": 3,
-    "md5": "6951e9013e09d34aafbfe33c74ae1127",
-    "sha256": "cbe6b1fe5917ac7979a1ced59a10284b1c05e1a61b3c48c527f126a4c6e664bf"
+    "md5": "1f3947df88330ae942b21c39d89574fb",
+    "sha256": "13c2cb8a206995aad647e41ec1685f8b64f98205047db1a7915ca3466dfd5644"
   },
   {
     "title": "Bluenation [1.05x]",
@@ -2351,8 +2351,8 @@
     "note": 7219,
     "total": 1546,
     "judge": 3,
-    "md5": "7052a6eef409179bba9c6cd1ee4f6c17",
-    "sha256": "2916da9ae54e856d215cb5189352e584ffd48c68e1180245f000cfdaa880af70"
+    "md5": "5ee8d9389b90f30e8c5e25a9b5d27ca7",
+    "sha256": "851462f2b0bd28791732588cf602e736871c3a7d762aea151cdbae08280eee7b"
   },
   {
     "title": "Bluenation [1.15x]",
@@ -2366,8 +2366,8 @@
     "note": 7537,
     "total": 1546,
     "judge": 3,
-    "md5": "0f467818ffd7f162ba065b6cff0ab65d",
-    "sha256": "fee27c6bbf7ba6d2812ab07ab518f3713c84b1dfb6e7d2d91d04240041d66d41"
+    "md5": "7c8b07c4a171070c4e1b8a02a88ac068",
+    "sha256": "97bdcf603919c514b1a88c0175f88bc631090be3ed802b787bd2fbc8792d56e1"
   },
   {
     "title": "Bluenation [1.1x]",
@@ -2381,8 +2381,8 @@
     "note": 7468,
     "total": 1546,
     "judge": 3,
-    "md5": "6e9e70d1f71d038707aef1ca365959fd",
-    "sha256": "5af7c64c9cd125dee34ec4591142a5e7ae9bbb40dd303bd515e0adbe950f14be"
+    "md5": "5371fd3fec596af20c5fe877f70f348b",
+    "sha256": "dae34296fb8f3df70073d11a790c5db59d5999fb76682fc6c50fe6c23772d3d7"
   },
   {
     "title": "Bluenation [starburst]",
@@ -2396,8 +2396,8 @@
     "note": 7734,
     "total": 1546,
     "judge": 3,
-    "md5": "bc2bb4e2ba0b5edb72b42dbef56224ac",
-    "sha256": "c8ba5d7720d9e64e7d3dc4b417000986c312b95db6d99b2c33f2429816505142"
+    "md5": "ed6a083a47035402388aa13caa735ddd",
+    "sha256": "75e61f397b88d19201af97607fe8f6f92963b3d4bde0f9baa706a354823fe21e"
   },
   {
     "title": "Love-Colored Look of the Sky [Re:spell]",
@@ -2411,8 +2411,8 @@
     "note": 4273,
     "total": 854,
     "judge": 3,
-    "md5": "b3aacd9e5bbd90e7d2ba5467f5c46e59",
-    "sha256": "674f44510c639b93e52ba8a26bee91677b068f0acc8a4203c10d39fdf20b5cab"
+    "md5": "4e845aeb6da2bbdfbaaf2fcc218d2b63",
+    "sha256": "48010c894a93b9bd309908300e1f2cee18ecaef15b36c977de0a738970f004c1"
   },
   {
     "title": "Sugary Galaxy [hyperlethal]",
@@ -2426,8 +2426,8 @@
     "note": 5830,
     "total": 1166,
     "judge": 3,
-    "md5": "394b7e373dfdf7fc9476b0719bdb9bed",
-    "sha256": "36cd3245b379ddb3e575adf7e059ae301b50e4b40c08119030096d34db4b5818"
+    "md5": "cbedaf5f2f0cabf8de47b6fecf29453a",
+    "sha256": "c2a3927a601551d1e57d183ca8e2425b76e31ee93c94bf9dc72fe9ae309968bb"
   },
   {
     "title": "ハートの後味 [afterlove]",
@@ -2441,8 +2441,8 @@
     "note": 5550,
     "total": 1110,
     "judge": 3,
-    "md5": "8ddc298b14bc162182aea322a3af80e9",
-    "sha256": "6eb768e148847e325e4e4cf90a76916ca869c66ed5777daa58d747e2700f4c73"
+    "md5": "36751fce4e4ab1096ca278623fe90594",
+    "sha256": "6c33809f35aef1ff35132905b4d35dcbf563ff234c9a9ac8c54851d8237ce9f1"
   },
   {
     "title": "SUMMER [A Midsummer Night's Dream 1.1x]",
@@ -2456,8 +2456,8 @@
     "note": 6248,
     "total": 1249,
     "judge": 3,
-    "md5": "526aad4260bb5f0382d7bfaf97fc0373",
-    "sha256": "124d6fa2fdd403551dde248fba53be43956cc6042ff5cdbcd7d2039f5c243e63"
+    "md5": "7c3df971e955ae24b096b6109e1b5b4e",
+    "sha256": "2e59386db0a5ad72bf02aa1e2f3e4d2ad540b5826391dbe6534ce69f0f06ff23"
   },
   {
     "title": "SUMMER [A Midsummer Night's Dream]",
@@ -2471,8 +2471,8 @@
     "note": 6248,
     "total": 1249,
     "judge": 3,
-    "md5": "d6506a427c93c7786d357f250269d035",
-    "sha256": "94b3d8a5aaca962782b375d88785051d0229534afc845fb2c523f860a3517aa2"
+    "md5": "08bd6729ee6fbe0bff11d293f0a11cf8",
+    "sha256": "f47b947d8796dc223f0d8411d37bebef5e11442e2f6f3c697461e22531800e31"
   },
   {
     "title": "低血ボルト [anemia]",
@@ -2486,7 +2486,7 @@
     "note": 5733,
     "total": 1146,
     "judge": 3,
-    "md5": "b9e26dcd8199cc3313d6528db3d9b90b",
-    "sha256": "de2a3ce3b21041133f36c66971109bcc4a3fe2eba71b2b706dd43159c3be7124"
+    "md5": "312d6f2799b6083df4f0fd47a1b89ae0",
+    "sha256": "4c6e11666f4f936db6fea44207a783c94795980193175fde80ec1724eb223059"
   }
 ]
