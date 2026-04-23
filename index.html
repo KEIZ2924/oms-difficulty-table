@@ -9,26 +9,34 @@
 
   <style>
     :root {
-      --bg: #ffffff;
-      --text: #222222;
-      --muted: #666666;
-      --topbar-bg: #222831;
+      --bg: #111418;
+      --text: #e6e6e6;
+      --muted: #a0a8b3;
+      --topbar-bg: #0b0f14;
       --topbar-text: #ffffff;
-      --subbar-bg: #393e46;
-      --subbar-text: #eeeeee;
-      --note-bg: #e8f5e9;
-      --note-border: #b7dfbd;
-      --thead-bg: #30343b;
+      --subbar-bg: #161b22;
+      --subbar-text: #c9d1d9;
+      --note-bg: #182028;
+      --note-border: #2d3a48;
+      --note-text: #c9d1d9;
+      --toolbar-bg: #161b22;
+      --toolbar-border: #2b3440;
+      --input-bg: #0f141a;
+      --input-border: #3a4552;
+      --input-text: #e6e6e6;
+      --thead-bg: #20262e;
       --thead-text: #ffffff;
-      --group-bg: #4a4f57;
+      --group-bg: #2c3440;
       --group-text: #ffffff;
-      --row-odd: #ffffff;
-      --row-even: #f4f4f4;
-      --border: #d0d0d0;
-      --link: #0645ad;
-      --danger-bg: #fff1f1;
-      --danger-border: #e2a7a7;
-      --danger-text: #8a1f1f;
+      --row-odd: #14191f;
+      --row-even: #1a2027;
+      --border: #2b3440;
+      --link: #7fb3ff;
+      --danger-bg: #2a1616;
+      --danger-border: #6b2c2c;
+      --danger-text: #ffb3b3;
+      --badge-bg: #3b82f6;
+      --badge-text: #ffffff;
     }
 
     * {
@@ -55,6 +63,7 @@
       padding: 8px 14px;
       font-size: 20px;
       font-weight: bold;
+      border-bottom: 1px solid var(--border);
     }
 
     .subbar {
@@ -62,6 +71,7 @@
       color: var(--subbar-text);
       padding: 5px 14px;
       font-size: 12px;
+      border-bottom: 1px solid var(--border);
     }
 
     .container {
@@ -75,7 +85,8 @@
       border: 1px solid var(--note-border);
       padding: 10px 12px;
       margin-bottom: 12px;
-      color: #24452b;
+      color: var(--note-text);
+      border-radius: 6px;
     }
 
     .toolbar {
@@ -85,8 +96,9 @@
       align-items: center;
       margin-bottom: 10px;
       padding: 8px;
-      border: 1px solid var(--border);
-      background: #fafafa;
+      border: 1px solid var(--toolbar-border);
+      background: var(--toolbar-bg);
+      border-radius: 6px;
     }
 
     .toolbar input,
@@ -94,8 +106,10 @@
     .toolbar button {
       font-size: 12px;
       padding: 4px 6px;
-      border: 1px solid #aaa;
-      background: #fff;
+      border: 1px solid var(--input-border);
+      background: var(--input-bg);
+      color: var(--input-text);
+      border-radius: 4px;
     }
 
     .toolbar input {
@@ -106,6 +120,10 @@
       cursor: pointer;
     }
 
+    .toolbar button:hover {
+      background: #202833;
+    }
+
     .meta {
       margin: 6px 0 10px;
       color: var(--muted);
@@ -114,8 +132,9 @@
     .message {
       padding: 14px;
       border: 1px solid var(--border);
-      background: #fafafa;
+      background: var(--toolbar-bg);
       margin-bottom: 12px;
+      border-radius: 6px;
     }
 
     .error {
@@ -128,6 +147,7 @@
     .table-wrap {
       overflow-x: auto;
       border: 1px solid var(--border);
+      border-radius: 6px;
     }
 
     table {
@@ -141,7 +161,7 @@
       background: var(--thead-bg);
       color: var(--thead-text);
       padding: 6px 7px;
-      border-right: 1px solid #555;
+      border-right: 1px solid #3a4552;
       text-align: left;
       white-space: nowrap;
     }
@@ -153,7 +173,7 @@
     tbody td {
       padding: 4px 7px;
       border-top: 1px solid var(--border);
-      border-right: 1px solid #e5e5e5;
+      border-right: 1px solid #24303c;
       vertical-align: top;
       overflow-wrap: anywhere;
     }
@@ -175,7 +195,7 @@
       color: var(--group-text);
       font-weight: bold;
       padding: 5px 7px;
-      border-top: 1px solid #333;
+      border-top: 1px solid #1b222b;
     }
 
     .col-level {
@@ -193,32 +213,8 @@
     }
 
     .col-comment {
-      width: 90px;
+      width: 180px;
       white-space: nowrap;
-    }
-
-    .col-note {
-      width: 78px;
-      text-align: right;
-      white-space: nowrap;
-    }
-
-    .col-total {
-      width: 70px;
-      text-align: right;
-      white-space: nowrap;
-    }
-
-    .col-judge {
-      width: 65px;
-      text-align: center;
-      white-space: nowrap;
-    }
-
-    .col-md5 {
-      width: 230px;
-      font-family: Consolas, Monaco, monospace;
-      font-size: 11px;
     }
 
     .level-badge {
@@ -226,8 +222,8 @@
       min-width: 44px;
       padding: 1px 5px;
       border-radius: 3px;
-      background: #222831;
-      color: #fff;
+      background: var(--badge-bg);
+      color: var(--badge-text);
       text-align: center;
       font-weight: bold;
     }
@@ -266,17 +262,15 @@
 
 <body>
   <div class="topbar" id="page-title">Difficulty Table</div>
-  <div class="subbar" id="page-subtitle">Loading...</div>
+  <div class="subbar" id="page-subtitle"></div>
 
   <div class="container">
-    <div class="note-box" id="description-box">
-      このページは header.json と score.json から自動生成されています。
-    </div>
+    <div class="note-box" id="description-box">暂无</div>
 
     <div class="toolbar">
       <label>
         Search:
-        <input id="search-input" type="search" placeholder="title / artist / comment / md5 / sha256">
+        <input id="search-input" type="search" placeholder="Title / Artist / Difficulty Estimate">
       </label>
 
       <label>
@@ -292,10 +286,6 @@
     <div class="meta" id="meta"></div>
 
     <div id="content" class="message">Loading header.json / score.json ...</div>
-
-    <div class="footer">
-      Generated from <code>header.json</code> and <code>score.json</code>.
-    </div>
   </div>
 
   <script>
@@ -321,10 +311,6 @@
         .replaceAll(">", "&gt;")
         .replaceAll('"', "&quot;")
         .replaceAll("'", "&#039;");
-    }
-
-    function isHttpUrl(value) {
-      return typeof value === "string" && /^https?:\/\//i.test(value);
     }
 
     function resolveUrl(base, path) {
@@ -355,9 +341,7 @@
         item.artist,
         item.comment,
         item.level,
-        item.name_diff,
-        item.md5,
-        item.sha256
+        item.name_diff
       ].map(v => String(v ?? "").toLowerCase()).join(" ");
     }
 
@@ -424,12 +408,7 @@
       const totalCount = scores.length;
       const filteredCount = filtered.length;
 
-      meta.innerHTML = `
-        Table: <strong>${escapeHtml(header.name || "Difficulty Table")}</strong>
-        ${header.symbol ? ` / Symbol: <strong>${escapeHtml(header.symbol)}</strong>` : ""}
-        / Total: <strong>${totalCount}</strong>
-        / Displayed: <strong>${filteredCount}</strong>
-      `;
+      meta.innerHTML = `Total: <strong>${totalCount}</strong> / Displayed: <strong>${filteredCount}</strong>`;
 
       if (filtered.length === 0) {
         content.className = "message";
@@ -459,11 +438,7 @@
                 <th class="col-level">Level</th>
                 <th class="col-title">Title</th>
                 <th class="col-artist">Artist</th>
-                <th class="col-comment">Comment</th>
-                <th class="col-note">Notes</th>
-                <th class="col-total">Total</th>
-                <th class="col-judge">Judge</th>
-                <th class="col-md5">MD5</th>
+                <th class="col-comment">Difficulty Estimate</th>
               </tr>
             </thead>
             <tbody>
@@ -477,7 +452,7 @@
 
         html += `
           <tr class="group-row">
-            <td colspan="8">${escapeHtml(lv)} (${list.length})</td>
+            <td colspan="4">${escapeHtml(lv)} (${list.length})</td>
           </tr>
         `;
 
@@ -486,10 +461,6 @@
           const title = item.title || "";
           const artist = item.artist || "";
           const comment = item.comment || "";
-          const note = item.note ?? "";
-          const total = item.total ?? "";
-          const judge = item.judge ?? "";
-          const md5 = item.md5 || "";
 
           const songUrl = item.url || "";
           const diffUrl = item.url_diff || "";
@@ -511,10 +482,6 @@
               <td class="col-title">${titleHtml}</td>
               <td class="col-artist">${escapeHtml(artist)}</td>
               <td class="col-comment">${escapeHtml(comment)}</td>
-              <td class="col-note">${escapeHtml(note)}</td>
-              <td class="col-total">${escapeHtml(total)}</td>
-              <td class="col-judge">${escapeHtml(judge)}</td>
-              <td class="col-md5">${escapeHtml(md5)}</td>
             </tr>
           `;
         }
@@ -547,22 +514,15 @@
         }
 
         const tableName = header.name || "Difficulty Table";
-        const symbol = header.symbol || "";
 
         pageTitle.textContent = tableName;
         document.title = tableName;
-        pageSubtitle.textContent = symbol
-          ? `Symbol: ${symbol}`
-          : "Difficulty Table";
+        pageSubtitle.textContent = "";
 
         const dataUrl = header.data_url || "score.json";
         const scoreUrl = resolveUrl(window.location.href, dataUrl);
 
-        descriptionBox.innerHTML = `
-          <strong>${escapeHtml(tableName)}</strong><br>
-          header.json: <code>${escapeHtml(HEADER_URL)}</code><br>
-          score.json: <code>${escapeHtml(dataUrl)}</code>
-        `;
+        descriptionBox.textContent = "暂无";
 
         scores = await loadJson(scoreUrl);
 
