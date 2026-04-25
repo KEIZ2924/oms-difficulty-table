@@ -522,7 +522,7 @@
         const dataUrl = header.data_url || "score.json";
         const scoreUrl = resolveUrl(window.location.href, dataUrl);
 
-        descriptionBox.textContent = "T/N(total/notes)=0.2 for ALL Charts";
+        descriptionBox.textContent = "T/N(total/notes)=0.2 & total>=300 for ALL Charts";
 
         scores = await loadJson(scoreUrl);
 
