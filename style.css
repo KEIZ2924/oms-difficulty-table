@@ -1,0 +1,240 @@
+:root {
+  --bg: #111418;
+  --text: #e6e6e6;
+  --muted: #a0a8b3;
+  --topbar-bg: #0b0f14;
+  --topbar-text: #ffffff;
+  --subbar-bg: #161b22;
+  --subbar-text: #c9d1d9;
+  --note-bg: #182028;
+  --note-border: #2d3a48;
+  --note-text: #c9d1d9;
+  --toolbar-bg: #161b22;
+  --toolbar-border: #2b3440;
+  --input-bg: #0f141a;
+  --input-border: #3a4552;
+  --input-text: #e6e6e6;
+  --thead-bg: #20262e;
+  --thead-text: #ffffff;
+  --group-bg: #2c3440;
+  --group-text: #ffffff;
+  --row-odd: #14191f;
+  --row-even: #1a2027;
+  --border: #2b3440;
+  --link: #7fb3ff;
+  --danger-bg: #2a1616;
+  --danger-border: #6b2c2c;
+  --danger-text: #ffb3b3;
+  --badge-bg: #3b82f6;
+  --badge-text: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: Arial, Helvetica, "Yu Gothic", "Meiryo", sans-serif;
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+}
+
+.topbar {
+  background: var(--topbar-bg);
+  color: var(--topbar-text);
+  padding: 8px 14px;
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom: 1px solid var(--border);
+}
+
+.subbar {
+  background: var(--subbar-bg);
+  color: var(--subbar-text);
+  padding: 5px 14px;
+  font-size: 12px;
+  border-bottom: 1px solid var(--border);
+}
+
+.container {
+  max-width: 1280px;
+  margin: 12px auto 40px;
+  padding: 0 12px;
+}
+
+.note-box {
+  background: var(--note-bg);
+  border: 1px solid var(--note-border);
+  padding: 10px 12px;
+  margin-bottom: 12px;
+  color: var(--note-text);
+  border-radius: 6px;
+}
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid var(--toolbar-border);
+  background: var(--toolbar-bg);
+  border-radius: 6px;
+}
+
+.toolbar input,
+.toolbar select,
+.toolbar button {
+  font-size: 12px;
+  padding: 4px 6px;
+  border: 1px solid var(--input-border);
+  background: var(--input-bg);
+  color: var(--input-text);
+  border-radius: 4px;
+}
+
+.toolbar input {
+  min-width: 260px;
+}
+
+.toolbar button {
+  cursor: pointer;
+}
+
+.toolbar button:hover {
+  background: #202833;
+}
+
+.meta {
+  margin: 6px 0 10px;
+  color: var(--muted);
+}
+
+.message {
+  padding: 14px;
+  border: 1px solid var(--border);
+  background: var(--toolbar-bg);
+  margin-bottom: 12px;
+  border-radius: 6px;
+}
+
+.error {
+  background: var(--danger-bg);
+  border-color: var(--danger-border);
+  color: var(--danger-text);
+  white-space: pre-wrap;
+}
+
+.table-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+}
+
+table {
+  width: 100%;
+  min-width: 1200px;
+  border-collapse: collapse;
+}
+
+thead th {
+  background: var(--thead-bg);
+  color: var(--thead-text);
+  padding: 6px 7px;
+  border-right: 1px solid #3a4552;
+  text-align: left;
+  white-space: nowrap;
+  user-select: none;
+  position: relative;
+}
+
+thead th:last-child {
+  border-right: none;
+}
+
+thead th .resizer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 5px;
+  height: 100%;
+  cursor: col-resize;
+  user-select: none;
+  z-index: 1;
+}
+
+thead th .resizer:hover {
+  background: var(--link);
+}
+
+tbody td {
+  padding: 4px 7px;
+  border-top: 1px solid var(--border);
+  border-right: 1px solid #24303c;
+  vertical-align: top;
+  overflow-wrap: anywhere;
+}
+
+tbody td:last-child {
+  border-right: none;
+}
+
+tbody tr.data-row:nth-child(odd) td {
+  background: var(--row-odd);
+}
+
+tbody tr.data-row:nth-child(even) td {
+  background: var(--row-even);
+}
+
+tr.group-row td {
+  background: var(--group-bg) !important;
+  color: var(--group-text);
+  font-weight: bold;
+  padding: 5px 7px;
+  border-top: 1px solid #1b222b;
+}
+
+.level-badge {
+  display: inline-block;
+  min-width: 44px;
+  padding: 1px 5px;
+  border-radius: 3px;
+  background: var(--badge-bg);
+  color: var(--badge-text);
+  text-align: center;
+  font-weight: bold;
+}
+
+.small {
+  color: var(--muted);
+  font-size: 11px;
+}
+
+@media (max-width: 700px) {
+  .topbar {
+    font-size: 17px;
+  }
+
+  .toolbar {
+    display: block;
+  }
+
+  .toolbar > * {
+    margin: 3px 0;
+  }
+
+  .toolbar input {
+    width: 100%;
+    min-width: 0;
+  }
+}
