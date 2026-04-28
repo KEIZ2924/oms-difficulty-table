@@ -1,70 +1,51 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="bmstable" content="header.json" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Difficulty Table</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="topbar" id="page-title">Difficulty Table</div>
-  <div class="subbar" id="page-subtitle"></div>
+  <div class="topbar">
+    <span id="page-title">Difficulty Table</span>
+  </div>
+
+  <div class="subbar">
+    <span id="page-subtitle"></span>
+  </div>
 
   <div class="container">
-    <div class="note-box" id="description-box">暂无</div>
+    <div class="note-box" id="description-box"></div>
 
     <div class="toolbar">
-      <label>
-        Search:
-        <input id="search-input" type="search" placeholder="Title / Artist">
-      </label>
+      <input type="text" id="search-input" placeholder="Search by title or artist...">
 
-      <label>
-        Level:
-        <select id="level-filter">
-          <option value="">All</option>
-        </select>
-      </label>
+      <select id="level-filter">
+        <option value="">All</option>
+      </select>
 
-      <label>
-        Column 1:
-        <select id="display-field-1">
-          <option value="type">Type</option>
-          <option value="sunny_sr">Sunny SR</option>
-          <option value="bms_difficulty">BMS Difficulty</option>
-          <option value="dan_estimate">Dan Estimate</option>
-          <option value="patterns">Patterns</option>
-        </select>
-      </label>
+      <select id="display-field-1">
+        <option value="type">Type</option>
+        <option value="sunny_sr">Sunny SR</option>
+        <option value="bms_difficulty">BMS Difficulty</option>
+        <option value="dan_estimate">Dan Estimate</option>
+        <option value="patterns">Patterns</option>
+      </select>
 
-      <label>
-        Column 2:
-        <select id="display-field-2">
-          <option value="type">Type</option>
-          <option value="sunny_sr" selected>Sunny SR</option>
-          <option value="bms_difficulty">BMS Difficulty</option>
-          <option value="dan_estimate">Dan Estimate</option>
-          <option value="patterns">Patterns</option>
-        </select>
-      </label>
+      <select id="display-field-2">
+        <option value="type">Type</option>
+        <option value="sunny_sr">Sunny SR</option>
+        <option value="bms_difficulty">BMS Difficulty</option>
+        <option value="dan_estimate">Dan Estimate</option>
+        <option value="patterns">Patterns</option>
+      </select>
 
-      <label>
-        Column 3:
-        <select id="display-field-3">
-          <option value="type">Type</option>
-          <option value="sunny_sr">Sunny SR</option>
-          <option value="bms_difficulty" selected>BMS Difficulty</option>
-          <option value="dan_estimate">Dan Estimate</option>
-          <option value="patterns">Patterns</option>
-        </select>
-      </label>
-
-      <button id="clear-button" type="button">Clear</button>
+      <button id="clear-button">Clear</button>
     </div>
 
     <div class="meta" id="meta"></div>
-    <div id="content" class="message">Loading header.json / score.json ...</div>
+    <div id="content"></div>
   </div>
 
   <script src="script.js"></script>
