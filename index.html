@@ -21,9 +21,18 @@
     <div class="toolbar">
       <input type="text" id="search-input" placeholder="Search by title or artist...">
 
-      <select id="level-filter">
-        <option value="">All</option>
-      </select>
+      <div class="multi-select" id="level-filter-wrap">
+        <button type="button" id="level-filter-button" class="multi-select-button">
+          All
+        </button>
+        <div id="level-filter-panel" class="multi-select-panel hidden">
+          <div class="multi-select-actions">
+            <button type="button" id="select-all-levels">Select All</button>
+            <button type="button" id="clear-levels">Clear</button>
+          </div>
+          <div id="level-filter-options" class="multi-select-options"></div>
+        </div>
+      </div>
 
       <select id="display-field-1">
         <option value="type">Type</option>

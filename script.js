@@ -14,6 +14,7 @@ let columnWidths = {
 };
 
 let currentPopup = null;
+let selectedLevels = new Set();
 
 const pageTitle = document.getElementById("page-title");
 const pageSubtitle = document.getElementById("page-subtitle");
@@ -21,7 +22,14 @@ const descriptionBox = document.getElementById("description-box");
 const meta = document.getElementById("meta");
 const content = document.getElementById("content");
 const searchInput = document.getElementById("search-input");
-const levelFilter = document.getElementById("level-filter");
+
+const levelFilterWrap = document.getElementById("level-filter-wrap");
+const levelFilterButton = document.getElementById("level-filter-button");
+const levelFilterPanel = document.getElementById("level-filter-panel");
+const levelFilterOptions = document.getElementById("level-filter-options");
+const selectAllLevelsButton = document.getElementById("select-all-levels");
+const clearLevelsButton = document.getElementById("clear-levels");
+
 const displayField1 = document.getElementById("display-field-1");
 const displayField2 = document.getElementById("display-field-2");
 const clearButton = document.getElementById("clear-button");
@@ -114,8 +122,49 @@ function buildLevelList() {
   return result;
 }
 
+function getAvailableLevels() {
+  return levelOrder.filter(lv =>
+    scores.some(s => normalizeLevel(s.level) === lv)
+  );
+}
+
+function updateLevelFilterButtonText() {
+  const availableLevels = getAvailableLevels();
+  const selectedAvailable = availableLevels.filter(lv => selectedLevels.has(lv));
+
+  if (selectedAvailable.length === 0) {
+    levelFilterButton.textContent = "All";
+    return;
+  }
+
+  if (selectedAvailable.length === availableLevels.length) {
+    levelFilterButton.textContent = "All";
+    return;
+  }
+
+  if (selectedAvailable.length === 1) {
+    levelFilterButton.textContent = selectedAvailable[0];
+    return;
+  }
+
+  if (selectedAvailable.length <= 3) {
+    levelFilterButton.textContent = selectedAvailable.join(", ");
+    return;
+  }
+
+  levelFilterButton.textContent = `${selectedAvailable.length} selected`;
+}
+
+function syncLevelCheckboxes() {
+  const checkboxes = levelFilterOptions.querySelectorAll('input[type="checkbox"]');
+
+  checkboxes.forEach(cb => {
+    cb.checked = selectedLevels.has(cb.value);
+  });
+}
+
 function populateLevelFilter() {
-  levelFilter.innerHTML = `<option value="">All</option>`;
+  levelFilterOptions.innerHTML = "";
 
   for (const lv of levelOrder) {
     const count = scores.filter(s => normalizeLevel(s.level) === lv).length;
@@ -124,12 +173,36 @@ function populateLevelFilter() {
       continue;
     }
 
-    const opt = document.createElement("option");
-    opt.value = lv;
-    opt.textContent = `${lv} (${count})`;
+    const label = document.createElement("label");
+    label.className = "multi-select-option";
 
-    levelFilter.appendChild(opt);
+    const checkbox = document.createElement("input");
+    checkbox.type = "checkbox";
+    checkbox.value = lv;
+    checkbox.checked = selectedLevels.has(lv);
+
+    const text = document.createElement("span");
+    text.className = "multi-select-text";
+    text.textContent = `${lv} (${count})`;
+
+    checkbox.addEventListener("change", () => {
+      if (checkbox.checked) {
+        selectedLevels.add(lv);
+      } else {
+        selectedLevels.delete(lv);
+      }
+
+      updateLevelFilterButtonText();
+      render();
+    });
+
+    label.appendChild(checkbox);
+    label.appendChild(text);
+
+    levelFilterOptions.appendChild(label);
   }
+
+  updateLevelFilterButtonText();
 }
 
 function hasValue(value) {
@@ -141,6 +214,14 @@ function closePopup() {
     currentPopup.remove();
     currentPopup = null;
   }
+}
+
+function toggleLevelFilterPanel() {
+  levelFilterPanel.classList.toggle("hidden");
+}
+
+function closeLevelFilterPanel() {
+  levelFilterPanel.classList.add("hidden");
 }
 
 function showInfoPopup(item, triggerElement) {
@@ -194,7 +275,6 @@ function showInfoPopup(item, triggerElement) {
 
     item.patterns.forEach(line => {
       const text = String(line);
-
       const parts = text.split(":");
 
       if (parts.length >= 2) {
@@ -344,14 +424,13 @@ function render() {
   closePopup();
 
   const keyword = searchInput.value.trim().toLowerCase();
-  const selectedLevel = levelFilter.value;
   const selectedField1 = displayField1.value;
   const selectedField2 = displayField2.value;
 
   let filtered = scores.slice();
 
-  if (selectedLevel) {
-    filtered = filtered.filter(item => normalizeLevel(item.level) === selectedLevel);
+  if (selectedLevels.size > 0) {
+    filtered = filtered.filter(item => selectedLevels.has(normalizeLevel(item.level)));
   }
 
   if (keyword) {
@@ -440,8 +519,6 @@ function render() {
 
       const displayValue1 = formatDisplayValue(item, selectedField1, rowIndex);
       const displayValue2 = formatDisplayValue(item, selectedField2, rowIndex);
-
-      // 最后一列强制为 patterns，保留浮窗
       const patternsPopup = formatDisplayValue(item, "patterns", rowIndex);
 
       html += `
@@ -497,7 +574,12 @@ async function init() {
     const dataUrl = header.data_url || "score.json";
     const scoreUrl = resolveUrl(window.location.href, dataUrl);
 
-    descriptionBox.textContent = "T/N(total/notes)=0.2 for ALL Charts";
+    descriptionBox.textContent = `• Chart Source: Compiled and curated by O!M7K charters
+• Rating System: Based on O!M7K dan rankings (★10.5 = Regular 10 dan | ◆13.5 = LN Zenith dan|★/◆15 > Stellium dan)
+• Difficulty Analysis: Integrated SunnyRework algorithm + BMS SL/ST estimation algorithm + Pattern Analysis
+• BMS Convert Settings: JUDGE = EASY, Total = max(0.2 × notes, 300), REMOVE All SV`;
+
+
 
     scores = await loadJson(scoreUrl);
 
@@ -507,7 +589,14 @@ async function init() {
 
     levelOrder = buildLevelList();
 
+    selectedLevels = new Set(getAvailableLevels());
+
     populateLevelFilter();
+    syncLevelCheckboxes();
+
+    displayField1.value = "bms_difficulty";
+    displayField2.value = "sunny_sr";
+
     render();
   } catch (err) {
     console.error(err);
@@ -520,19 +609,68 @@ async function init() {
   }
 }
 
-document.addEventListener("click", closePopup);
+document.addEventListener("click", event => {
+  closePopup();
+
+  if (
+    !levelFilterWrap.contains(event.target)
+  ) {
+    closeLevelFilterPanel();
+  }
+});
 
 window.addEventListener("resize", closePopup);
 window.addEventListener("scroll", closePopup, true);
 
 searchInput.addEventListener("input", render);
-levelFilter.addEventListener("change", render);
+
 displayField1.addEventListener("change", render);
 displayField2.addEventListener("change", render);
 
+levelFilterButton.addEventListener("click", event => {
+  event.stopPropagation();
+  toggleLevelFilterPanel();
+});
+
+levelFilterPanel.addEventListener("click", event => {
+  event.stopPropagation();
+});
+
+selectAllLevelsButton.addEventListener("click", event => {
+  event.stopPropagation();
+
+  selectedLevels.clear();
+
+  const checkboxes = levelFilterOptions.querySelectorAll('input[type="checkbox"]');
+  checkboxes.forEach(cb => {
+    cb.checked = true;
+    selectedLevels.add(cb.value);
+  });
+
+  updateLevelFilterButtonText();
+  render();
+});
+
+clearLevelsButton.addEventListener("click", event => {
+  event.stopPropagation();
+
+  selectedLevels.clear();
+  syncLevelCheckboxes();
+
+  updateLevelFilterButtonText();
+  render();
+});
+
 clearButton.addEventListener("click", () => {
   searchInput.value = "";
-  levelFilter.value = "";
+
+  selectedLevels = new Set(getAvailableLevels());
+  syncLevelCheckboxes();
+
+  displayField1.value = "bms_difficulty";
+  displayField2.value = "sunny_sr";
+
+  updateLevelFilterButtonText();
   render();
 });
 
